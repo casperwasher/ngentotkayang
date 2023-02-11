@@ -20,5 +20,5 @@ const game =  ` 
 ┣❏heal
 ┣❏berburu
 ┣❏deltt
-┗━━⊱[ kz ]`
+┗━━⊱[ Casper ]`
 exports.game = game
