@@ -1,5 +1,5 @@
 const bugmenu =  ` 
-° Owner  : kz
+° Owner  : Casper
 ° Version : 13
 ° Baileys : 4.4.0
 
@@ -157,7 +157,7 @@ Created : 😈 ${botname} 👿
 ┣❏Jadivirtext9 [ Text nya ]
 ┣❏Jadivirtext10 [ Text nya ]
 ┗━━⊱
-[ Contoh Jadijago Haikal ]
+[ Contoh Jadijago Casper ]
 ▬▭▬▭▬▭▬▭▬▬▭▬▭▬
 *BONUS*
 ┏━━⊱
