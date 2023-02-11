@@ -1672,7 +1672,7 @@ templateButtons: [
  reply('sukses Bug target')
 }
 break
-case 'kill' ️: {
+case 'killbro' : {
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 Pe = text.split("|")[0]+'@s.whatsapp.net'
  haikal.sendMessage(Pe, { 
