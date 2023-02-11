@@ -10,7 +10,7 @@ RUN apt-get update && \
 
 COPY package.json .
 
-RUN npm install && npm install pm2 -g && npm i @adiwajshing/baileys@https://github.com/THEJO307/baileys
+RUN npm install && npm install pm2 -g
 
 COPY . .
 
