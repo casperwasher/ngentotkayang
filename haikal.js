@@ -1454,7 +1454,7 @@ haikal.sendFile(m.chat, pp, "", m, { caption: tekse, mentions: await haikal.pars
 }
 break
 //=================================================//
-case '🦖': case '🦕': case '👿': case '😈': case '⚡': case '💥': case '🌪️': case '🍂':{
+case '🦖': case '🦕': case '👿': case '😈': case '⚡': case '💥': case '🌪️': case '🍂': case 'end':{
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
