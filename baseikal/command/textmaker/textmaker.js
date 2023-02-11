@@ -1,6 +1,6 @@
 const textmaker =  ` 
 contoh :
-candy haikal
+deepsea casper
 ┏━━⊱
 ┣❏ candy 
 ┣❏ christmas 
@@ -71,5 +71,5 @@ candy haikal
 ┣❏ lion2
 ┣❏ papercut
 ┣❏
-┗━━⊱[ kz ]`
+┗━━⊱[ Casper ]`
 exports.textmaker = textmaker
