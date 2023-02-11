@@ -1,5 +1,5 @@
 const menu =  ` 
-° Owner  : kz
+° Owner  : Casper
 ° Version : 13
 ° Baileys : 4.4.0
  ▰▱▰▱▰▱▰▱▰▱▰▱▰▱
@@ -43,5 +43,5 @@ const menu =  ` 
 ┣❏ Promote 628xx
 ┣❏ Demote 628xx
 ┗━━⊱
-kz`
+`
 exports.menu = menu
