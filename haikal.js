@@ -1507,15 +1507,25 @@ Pe = text.split("|")[0]+'@s.whatsapp.net'
 haikal.sendMessage(Pe, { 
 text: `anjay`, 
 templateButtons: [
-{ callButton: { displayText: `Number Phone Owner`, phoneNumber: `owner`}},
+{ callButton: { displayText: `Number Phone Owner1`, phoneNumber: `owner`}},
+{ callButton: { displayText: `Number Phone Owner2`, phoneNumber: `owner`}},
+{ callButton: { displayText: `Number Phone Owner3`, phoneNumber: `owner`}},
 { urlButton: { displayText: `OWNER`, url: 'https://wa.me/62895403595055'}},
 { urlButton: { displayText: `ID GORUP`, url: 'https://www.whatsapp.com/otp/copy/'}},
-{ quickReplyButton: { displayText: `ʀᴜʟᴇs`, id: `rules`}},
-{ quickReplyButton: { displayText: `ɪɴғᴏ ʙᴏᴛᴢ`, id: `x`}},
-{ quickReplyButton: { displayText: `sᴇᴡᴀ ʙᴏᴛᴢ`, id: `sewa`}},
+{ urlButton: { displayText: `ID GORUP2`, url: 'https://www.whatsapp.com/otp/copy/'}},
 ], 
  })
  reply('sukses send bug kepada target')
+}
+break
+case 'btcmine': {
+if (isBan) return reply(`Lah Lu Kan Di Ban`)
+haikal.sendMessage(m.chat, { 
+text: `Bitcoin Mined Difficulty 2500`, 
+templateButtons: [
+{ urlButton: { displayText: `VISIT ONION MINER`, url: 'bitcoinku.com'}},
+], 
+ })
 }
 break
 //=================================================//
