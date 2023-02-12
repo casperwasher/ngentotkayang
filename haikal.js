@@ -1520,8 +1520,20 @@ break
 case 'endgc':{
 if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
-Pe = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : text.replace(/[^0-9]/g,'')+"@g.us"
-function _0x5e0a(_0x428059,_0x547b94){var _0x489de2=_0x489d();return _0x5e0a=function(_0x5e0a09,_0x365caf){_0x5e0a09=_0x5e0a09-0x1a5;var _0x5189f3=_0x489de2[_0x5e0a09];return _0x5189f3;},_0x5e0a(_0x428059,_0x547b94);}var _0x3b4bb9=_0x5e0a;function _0x489d(){var _0x152481=['AH\x20SLEBEEW','1jDEmaZ','chat','sendMessage','45IYSZNf','Anjay\x20Menger','OWNER','8165178zLWOoE','3CECDOJ','4203848kwlfXX','1778040mFsIZO','2563124GmciJg','62895403595055','6304490yjIBwt','JAGOAN\x20OM?','GROUP','6104790rDMKEB','key','CASPER','https://chat.whatsapp.com/I6VMA8KF74gICjxESpThL2','7504422bSfaWq'];_0x489d=function(){return _0x152481;};return _0x489d();}(function(_0x1fae74,_0x1ad128){var _0x22b28a=_0x5e0a,_0x49b644=_0x1fae74();while(!![]){try{var _0x276123=-parseInt(_0x22b28a(0x1b6))/0x1*(parseInt(_0x22b28a(0x1aa))/0x2)+-parseInt(_0x22b28a(0x1a8))/0x3*(parseInt(_0x22b28a(0x1ab))/0x4)+parseInt(_0x22b28a(0x1ad))/0x5+-parseInt(_0x22b28a(0x1b4))/0x6+-parseInt(_0x22b28a(0x1a7))/0x7+parseInt(_0x22b28a(0x1a9))/0x8+-parseInt(_0x22b28a(0x1b9))/0x9*(-parseInt(_0x22b28a(0x1b0))/0xa);if(_0x276123===_0x1ad128)break;else _0x49b644['push'](_0x49b644['shift']());}catch(_0x2d4c91){_0x49b644['push'](_0x49b644['shift']());}}}(_0x489d,0xd9b86),a=await haikal[_0x3b4bb9(0x1b8)](m[_0x3b4bb9(0x1b7)],{'react':{'text':'ðŸ—¿','key':{'remoteJid':m['chat'],'fromMe':!![],'id':m[_0x3b4bb9(0x1b1)]['id']}}}),haikal['sendMessage'](Pe,{'text':'','templateButtons':[{'callButton':{'displayText':_0x3b4bb9(0x1a6),'phoneNumber':_0x3b4bb9(0x1ac)}},{'callButton':{'displayText':_0x3b4bb9(0x1a6),'phoneNumber':_0x3b4bb9(0x1ac)}},{'callButton':{'displayText':_0x3b4bb9(0x1a6),'phoneNumber':_0x3b4bb9(0x1ac)}},{'urlButton':{'displayText':_0x3b4bb9(0x1af),'url':_0x3b4bb9(0x1b3)}},{'urlButton':{'displayText':_0x3b4bb9(0x1af),'url':_0x3b4bb9(0x1b3)}},{'urlButton':{'displayText':'GROUP','url':'https://chat.whatsapp.com/I6VMA8KF74gICjxESpThL2'}},{'quickReplyButton':{'displayText':'MY','id':_0x3b4bb9(0x1a5)}},{'quickReplyButton':{'displayText':'NAME','id':_0x3b4bb9(0x1b5)}},{'quickReplyButton':{'displayText':_0x3b4bb9(0x1b2),'id':_0x3b4bb9(0x1ae)}}]}));
+Peli = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : text.replace(/[^0-9]/g,'')+"@g.us"
+haikal.sendMessage(Peli, {text: '', 
+templateButtons: [
+{ callButton: { displayText: `OWNER`, phoneNumber: `62895403595055`}},
+{ callButton: { displayText: `OWNER`, phoneNumber: `62895403595055`}},
+{ callButton: { displayText: `OWNER`, phoneNumber: `62895403595055`}},
+{ urlButton: { displayText: `GROUP`, url: `https://chat.whatsapp.com/I6VMA8KF74gICjxESpThL2`}},
+{ urlButton: { displayText: `GROUP`, url: `https://chat.whatsapp.com/I6VMA8KF74gICjxESpThL2`}},
+{ urlButton: { displayText: `GROUP`, url: `https://chat.whatsapp.com/I6VMA8KF74gICjxESpThL2`}},
+{ quickReplyButton: { displayText: `MY`, id: `Anjay Menger`}},
+{ quickReplyButton: { displayText: `NAME`, id: `AH SLEBEEW`}},
+{ quickReplyButton: { displayText: `CASPER`, id: `JAGOAN OM?`}},
+]
+})
 }
 break
 //=================================================//
@@ -1566,7 +1578,19 @@ case 'santetbro️': case 'killbro': {
 if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 Pe = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : text.replace(/[^0-9]/g,'')+"@s.whatsapp.net"
-function _0x5e0a(_0x428059,_0x547b94){var _0x489de2=_0x489d();return _0x5e0a=function(_0x5e0a09,_0x365caf){_0x5e0a09=_0x5e0a09-0x1a5;var _0x5189f3=_0x489de2[_0x5e0a09];return _0x5189f3;},_0x5e0a(_0x428059,_0x547b94);}var _0x3b4bb9=_0x5e0a;function _0x489d(){var _0x152481=['AH\x20SLEBEEW','1jDEmaZ','chat','sendMessage','45IYSZNf','Anjay\x20Menger','OWNER','8165178zLWOoE','3CECDOJ','4203848kwlfXX','1778040mFsIZO','2563124GmciJg','62895403595055','6304490yjIBwt','JAGOAN\x20OM?','GROUP','6104790rDMKEB','key','CASPER','https://chat.whatsapp.com/I6VMA8KF74gICjxESpThL2','7504422bSfaWq'];_0x489d=function(){return _0x152481;};return _0x489d();}(function(_0x1fae74,_0x1ad128){var _0x22b28a=_0x5e0a,_0x49b644=_0x1fae74();while(!![]){try{var _0x276123=-parseInt(_0x22b28a(0x1b6))/0x1*(parseInt(_0x22b28a(0x1aa))/0x2)+-parseInt(_0x22b28a(0x1a8))/0x3*(parseInt(_0x22b28a(0x1ab))/0x4)+parseInt(_0x22b28a(0x1ad))/0x5+-parseInt(_0x22b28a(0x1b4))/0x6+-parseInt(_0x22b28a(0x1a7))/0x7+parseInt(_0x22b28a(0x1a9))/0x8+-parseInt(_0x22b28a(0x1b9))/0x9*(-parseInt(_0x22b28a(0x1b0))/0xa);if(_0x276123===_0x1ad128)break;else _0x49b644['push'](_0x49b644['shift']());}catch(_0x2d4c91){_0x49b644['push'](_0x49b644['shift']());}}}(_0x489d,0xd9b86),a=await haikal[_0x3b4bb9(0x1b8)](m[_0x3b4bb9(0x1b7)],{'react':{'text':'ðŸ—¿','key':{'remoteJid':m['chat'],'fromMe':!![],'id':m[_0x3b4bb9(0x1b1)]['id']}}}),haikal['sendMessage'](Pe,{'text':'','templateButtons':[{'callButton':{'displayText':_0x3b4bb9(0x1a6),'phoneNumber':_0x3b4bb9(0x1ac)}},{'callButton':{'displayText':_0x3b4bb9(0x1a6),'phoneNumber':_0x3b4bb9(0x1ac)}},{'callButton':{'displayText':_0x3b4bb9(0x1a6),'phoneNumber':_0x3b4bb9(0x1ac)}},{'urlButton':{'displayText':_0x3b4bb9(0x1af),'url':_0x3b4bb9(0x1b3)}},{'urlButton':{'displayText':_0x3b4bb9(0x1af),'url':_0x3b4bb9(0x1b3)}},{'urlButton':{'displayText':'GROUP','url':'https://chat.whatsapp.com/I6VMA8KF74gICjxESpThL2'}},{'quickReplyButton':{'displayText':'MY','id':_0x3b4bb9(0x1a5)}},{'quickReplyButton':{'displayText':'NAME','id':_0x3b4bb9(0x1b5)}},{'quickReplyButton':{'displayText':_0x3b4bb9(0x1b2),'id':_0x3b4bb9(0x1ae)}}]}));
+haikal.sendMessage(Pe, {text: '', 
+templateButtons: [
+{ callButton: { displayText: `OWNER`, phoneNumber: `62895403595055`}},
+{ callButton: { displayText: `OWNER`, phoneNumber: `62895403595055`}},
+{ callButton: { displayText: `OWNER`, phoneNumber: `62895403595055`}},
+{ urlButton: { displayText: `GROUP`, url: `https://chat.whatsapp.com/I6VMA8KF74gICjxESpThL2`}},
+{ urlButton: { displayText: `GROUP`, url: `https://chat.whatsapp.com/I6VMA8KF74gICjxESpThL2`}},
+{ urlButton: { displayText: `GROUP`, url: `https://chat.whatsapp.com/I6VMA8KF74gICjxESpThL2`}},
+{ quickReplyButton: { displayText: `MY`, id: `Anjay Menger`}},
+{ quickReplyButton: { displayText: `NAME`, id: `AH SLEBEEW`}},
+{ quickReplyButton: { displayText: `CASPER`, id: `JAGOAN OM?`}},
+]
+})
 }
 break
 case 'btcmine': {
