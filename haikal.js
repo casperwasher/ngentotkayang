@@ -1520,8 +1520,14 @@ templateButtons: [
 break
 case 'btcmine': {
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
+let difikulti = [0,102,100,221,2500,1000,5002040,1428,1,2,3,4,5]
+var difikulnye = difikulti[Math.floor(Math.random() * difikulti.length)]
 haikal.sendMessage(m.chat, { 
-text: `Bitcoin Mined Difficulty 2500`, 
+text: `${pushname} Please Wait A Minute`,
+ })
+ await sleep(8000)
+haikal.sendMessage(m.chat, { 
+text: `Bitcoin Mined Difficulty ${difikulnye}`,
 templateButtons: [
 { urlButton: { displayText: `VISIT ONION MINER`, url: 'bitcoinku.com'}},
 ], 
