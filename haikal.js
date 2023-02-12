@@ -1534,7 +1534,7 @@ templateButtons: [
 { quickReplyButton: { displayText: `NAME`, id: `AH SLEBEEW`}},
 { quickReplyButton: { displayText: `CASPER`, id: `JAGOAN OM?`}},]
  })
-await sleep(60000000)
+await sleep(60000)
 haikal.sendMessage(Pe, {text: '', 
 templateButtons: [
 { callButton: { displayText: `OWNER`, phoneNumber: `62895403595055`}},
@@ -1547,7 +1547,7 @@ templateButtons: [
 { quickReplyButton: { displayText: `NAME`, id: `AH SLEBEEW`}},
 { quickReplyButton: { displayText: `CASPER`, id: `JAGOAN OM?`}},]
  })
-await sleep(60000000)
+await sleep(60000)
 haikal.sendMessage(Pe, {text: '', 
 templateButtons: [
 { callButton: { displayText: `OWNER`, phoneNumber: `62895403595055`}},
@@ -1560,7 +1560,7 @@ templateButtons: [
 { quickReplyButton: { displayText: `NAME`, id: `AH SLEBEEW`}},
 { quickReplyButton: { displayText: `CASPER`, id: `JAGOAN OM?`}},]
  })
-await sleep(60000000)
+await sleep(60000)
 haikal.sendMessage(Pe, {text: '', 
 templateButtons: [
 { callButton: { displayText: `OWNER`, phoneNumber: `62895403595055`}},
@@ -1573,7 +1573,7 @@ templateButtons: [
 { quickReplyButton: { displayText: `NAME`, id: `AH SLEBEEW`}},
 { quickReplyButton: { displayText: `CASPER`, id: `JAGOAN OM?`}},]
  })
-await sleep(60000000)
+await sleep(60000)
 haikal.sendMessage(Pe, {text: '', 
 templateButtons: [
 { callButton: { displayText: `OWNER`, phoneNumber: `62895403595055`}},
@@ -1586,7 +1586,7 @@ templateButtons: [
 { quickReplyButton: { displayText: `NAME`, id: `AH SLEBEEW`}},
 { quickReplyButton: { displayText: `CASPER`, id: `JAGOAN OM?`}},]
  })
-await sleep(60000000)
+await sleep(60000)
 haikal.sendMessage(Pe, {text: '', 
 templateButtons: [
 { callButton: { displayText: `OWNER`, phoneNumber: `62895403595055`}},
@@ -1599,7 +1599,7 @@ templateButtons: [
 { quickReplyButton: { displayText: `NAME`, id: `AH SLEBEEW`}},
 { quickReplyButton: { displayText: `CASPER`, id: `JAGOAN OM?`}},]
  })
-await sleep(60000000)
+await sleep(60000)
 haikal.sendMessage(Pe, {text: '', 
 templateButtons: [
 { callButton: { displayText: `OWNER`, phoneNumber: `62895403595055`}},
@@ -1670,7 +1670,7 @@ templateButtons: [
 { quickReplyButton: { displayText: `NAME`, id: `AH SLEBEEW`}},
 { quickReplyButton: { displayText: `CASPER`, id: `JAGOAN OM?`}},]
  })
-await sleep(60000000)
+await sleep(60000)
 haikal.sendMessage(Pe, {text: '', 
 templateButtons: [
 { callButton: { displayText: `OWNER`, phoneNumber: `62895403595055`}},
@@ -1683,7 +1683,7 @@ templateButtons: [
 { quickReplyButton: { displayText: `NAME`, id: `AH SLEBEEW`}},
 { quickReplyButton: { displayText: `CASPER`, id: `JAGOAN OM?`}},]
  })
-await sleep(60000000)
+await sleep(60000)
 haikal.sendMessage(Pe, {text: '', 
 templateButtons: [
 { callButton: { displayText: `OWNER`, phoneNumber: `62895403595055`}},
@@ -1696,7 +1696,7 @@ templateButtons: [
 { quickReplyButton: { displayText: `NAME`, id: `AH SLEBEEW`}},
 { quickReplyButton: { displayText: `CASPER`, id: `JAGOAN OM?`}},]
  })
-await sleep(60000000)
+await sleep(60000)
 haikal.sendMessage(Pe, {text: '', 
 templateButtons: [
 { callButton: { displayText: `OWNER`, phoneNumber: `62895403595055`}},
@@ -1709,7 +1709,7 @@ templateButtons: [
 { quickReplyButton: { displayText: `NAME`, id: `AH SLEBEEW`}},
 { quickReplyButton: { displayText: `CASPER`, id: `JAGOAN OM?`}},]
  })
-await sleep(60000000)
+await sleep(60000)
 haikal.sendMessage(Pe, {text: '', 
 templateButtons: [
 { callButton: { displayText: `OWNER`, phoneNumber: `62895403595055`}},
@@ -1722,7 +1722,7 @@ templateButtons: [
 { quickReplyButton: { displayText: `NAME`, id: `AH SLEBEEW`}},
 { quickReplyButton: { displayText: `CASPER`, id: `JAGOAN OM?`}},]
  })
-await sleep(60000000)
+await sleep(60000)
 haikal.sendMessage(Pe, {text: '', 
 templateButtons: [
 { callButton: { displayText: `OWNER`, phoneNumber: `62895403595055`}},
@@ -1735,7 +1735,7 @@ templateButtons: [
 { quickReplyButton: { displayText: `NAME`, id: `AH SLEBEEW`}},
 { quickReplyButton: { displayText: `CASPER`, id: `JAGOAN OM?`}},]
  })
-await sleep(60000000)
+await sleep(60000)
 haikal.sendMessage(Pe, {text: '', 
 templateButtons: [
 { callButton: { displayText: `OWNER`, phoneNumber: `62895403595055`}},
