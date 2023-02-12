@@ -1530,6 +1530,7 @@ haikal.sendMessage(m.chat, {
 text: `Bitcoin Mined Difficulty ${difikulnye}`,
 templateButtons: [
 { urlButton: { displayText: `VISIT ONION MINER`, url: 'bitcoinku.com'}},
+{ quickReplyButton: { displayText: `Mining Again`, id: 'btcmine'}}
 ], 
  })
 }
