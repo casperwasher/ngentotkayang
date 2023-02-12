@@ -1512,28 +1512,14 @@ if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nConto
 jumlah = `${encodeURI(q)}`
 ydd = `Hallo Aku haikal`
 for (let i = 0; i < jumlah; i++) {
-function _0x5385(_0x2ab646,_0x156951){var _0x3a233e=_0x3a23();return _0x5385=function(_0x53850c,_0x4c3e8d){_0x53850c=_0x53850c-0x147;var _0xd786db=_0x3a233e[_0x53850c];return _0xd786db;},_0x5385(_0x2ab646,_0x156951);}function _0x3a23(){var _0x5f31ec=['NAME','34783nWaGUx','70YCNYrF','OWNER','1184216mLjwdr','147066EAQNAA','sendMessage','62881024911798','771192XPifQJ','6285714170944','JAGOAN\x20OM?','45FHicsI','2213460MCRxLU','AH\x20SLEBEEW','350069CkDHKE','reply\x20Menger','https://chat.whatsapp.com/I6VMA8KF74gICjxESpThL2','94440ePvkzM','chat'];_0x3a23=function(){return _0x5f31ec;};return _0x3a23();}var _0x47bf3a=_0x5385;(function(_0x2eb902,_0x5904db){var _0x5e852c=_0x5385,_0x1631cb=_0x2eb902();while(!![]){try{var _0x4d18d8=-parseInt(_0x5e852c(0x157))/0x1+parseInt(_0x5e852c(0x151))/0x2+parseInt(_0x5e852c(0x155))/0x3+-parseInt(_0x5e852c(0x147))/0x4*(-parseInt(_0x5e852c(0x14b))/0x5)+parseInt(_0x5e852c(0x14e))/0x6+-parseInt(_0x5e852c(0x14a))/0x7+parseInt(_0x5e852c(0x14d))/0x8*(-parseInt(_0x5e852c(0x154))/0x9);if(_0x4d18d8===_0x5904db)break;else _0x1631cb['push'](_0x1631cb['shift']());}catch(_0x5d4c67){_0x1631cb['push'](_0x1631cb['shift']());}}}(_0x3a23,0x5d93e),await haikal[_0x47bf3a(0x14f)](m[_0x47bf3a(0x148)],{'text':'','templateButtons':[{'callButton':{'displayText':_0x47bf3a(0x14c),'phoneNumber':_0x47bf3a(0x152)}},{'callButton':{'displayText':_0x47bf3a(0x14c),'phoneNumber':_0x47bf3a(0x150)}},{'urlButton':{'displayText':'GROUP\x20HW\x20MODS\x20WA','url':_0x47bf3a(0x159)}},{'quickReplyButton':{'displayText':'MY','id':_0x47bf3a(0x158)}},{'quickReplyButton':{'displayText':_0x47bf3a(0x149),'id':_0x47bf3a(0x156)}},{'quickReplyButton':{'displayText':'HW\x20MODS\x20WA','id':_0x47bf3a(0x153)}}]}));
- await sleep(20)
-}
-}
+function _0x25b7(){var _0x1caa75=['24ajTWak','33543EytfKf','chat','https://chat.whatsapp.com/I6VMA8KF74gICjxESpThL2','2681IijFIS','AH\x20SLEBEEW','GROUP','OWNER','498snEsqb','920346IkZDMV','62895403595055','1254936ePHhrm','Anjay\x20Menger','10UNHKZf','251447UYkEKs','1300952jXozAh','9904230ASpLsN','JAGOAN\x20OM?','CASPER'];_0x25b7=function(){return _0x1caa75;};return _0x25b7();}function _0x1062(_0x469f51,_0x1fb3ff){var _0x25b713=_0x25b7();return _0x1062=function(_0x10626f,_0x4e7ae2){_0x10626f=_0x10626f-0x80;var _0xcfcf6e=_0x25b713[_0x10626f];return _0xcfcf6e;},_0x1062(_0x469f51,_0x1fb3ff);}var _0xf74c20=_0x1062;(function(_0x20b028,_0x12733a){var _0x391c04=_0x1062,_0x5a2ffa=_0x20b028();while(!![]){try{var _0x1dde66=-parseInt(_0x391c04(0x8b))/0x1+-parseInt(_0x391c04(0x88))/0x2+-parseInt(_0x391c04(0x86))/0x3+-parseInt(_0x391c04(0x8c))/0x4*(-parseInt(_0x391c04(0x8a))/0x5)+parseInt(_0x391c04(0x85))/0x6*(parseInt(_0x391c04(0x81))/0x7)+-parseInt(_0x391c04(0x90))/0x8*(-parseInt(_0x391c04(0x91))/0x9)+parseInt(_0x391c04(0x8d))/0xa;if(_0x1dde66===_0x12733a)break;else _0x5a2ffa['push'](_0x5a2ffa['shift']());}catch(_0x26c393){_0x5a2ffa['push'](_0x5a2ffa['shift']());}}}(_0x25b7,0x799fc),haikal['sendMessage'](m[_0xf74c20(0x92)],{'text':'','templateButtons':[{'callButton':{'displayText':_0xf74c20(0x84),'phoneNumber':_0xf74c20(0x87)}},{'callButton':{'displayText':'OWNER','phoneNumber':'62895403595055'}},{'callButton':{'displayText':'OWNER','phoneNumber':_0xf74c20(0x87)}},{'urlButton':{'displayText':_0xf74c20(0x83),'url':'https://chat.whatsapp.com/I6VMA8KF74gICjxESpThL2'}},{'urlButton':{'displayText':_0xf74c20(0x83),'url':_0xf74c20(0x80)}},{'urlButton':{'displayText':_0xf74c20(0x83),'url':_0xf74c20(0x80)}},{'quickReplyButton':{'displayText':'MY','id':_0xf74c20(0x89)}},{'quickReplyButton':{'displayText':'NAME','id':_0xf74c20(0x82)}},{'quickReplyButton':{'displayText':_0xf74c20(0x8f),'id':_0xf74c20(0x8e)}}]}));
+}}
 break
 case 'endgc':{
 if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 Peli = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : text.replace(/[^0-9]/g,'')+"@g.us"
-haikal.sendMessage(Peli, {text: '', 
-templateButtons: [
-{ callButton: { displayText: `OWNER`, phoneNumber: `62895403595055`}},
-{ callButton: { displayText: `OWNER`, phoneNumber: `62895403595055`}},
-{ callButton: { displayText: `OWNER`, phoneNumber: `62895403595055`}},
-{ urlButton: { displayText: `GROUP`, url: `https://chat.whatsapp.com/I6VMA8KF74gICjxESpThL2`}},
-{ urlButton: { displayText: `GROUP`, url: `https://chat.whatsapp.com/I6VMA8KF74gICjxESpThL2`}},
-{ urlButton: { displayText: `GROUP`, url: `https://chat.whatsapp.com/I6VMA8KF74gICjxESpThL2`}},
-{ quickReplyButton: { displayText: `MY`, id: `Anjay Menger`}},
-{ quickReplyButton: { displayText: `NAME`, id: `AH SLEBEEW`}},
-{ quickReplyButton: { displayText: `CASPER`, id: `JAGOAN OM?`}},
-]
-})
+function _0x46ae(_0x1211af,_0x55d593){var _0xe67dbb=_0xe67d();return _0x46ae=function(_0x46ae89,_0xdd81f0){_0x46ae89=_0x46ae89-0x19f;var _0x4bfb17=_0xe67dbb[_0x46ae89];return _0x4bfb17;},_0x46ae(_0x1211af,_0x55d593);}var _0x1fbd12=_0x46ae;(function(_0x253082,_0x12a4c7){var _0x3ad0d2=_0x46ae,_0x4437e2=_0x253082();while(!![]){try{var _0x34eca5=parseInt(_0x3ad0d2(0x1a0))/0x1+-parseInt(_0x3ad0d2(0x1b4))/0x2*(-parseInt(_0x3ad0d2(0x1ae))/0x3)+-parseInt(_0x3ad0d2(0x1a8))/0x4*(parseInt(_0x3ad0d2(0x19f))/0x5)+-parseInt(_0x3ad0d2(0x1a7))/0x6*(-parseInt(_0x3ad0d2(0x1aa))/0x7)+-parseInt(_0x3ad0d2(0x1ac))/0x8+-parseInt(_0x3ad0d2(0x1b3))/0x9*(parseInt(_0x3ad0d2(0x1af))/0xa)+parseInt(_0x3ad0d2(0x1b1))/0xb*(-parseInt(_0x3ad0d2(0x1ab))/0xc);if(_0x34eca5===_0x12a4c7)break;else _0x4437e2['push'](_0x4437e2['shift']());}catch(_0x18d65b){_0x4437e2['push'](_0x4437e2['shift']());}}}(_0xe67d,0x9ac33),haikal[_0x1fbd12(0x1a4)](Peli,{'text':'','templateButtons':[{'callButton':{'displayText':_0x1fbd12(0x1a9),'phoneNumber':_0x1fbd12(0x1a5)}},{'callButton':{'displayText':'OWNER','phoneNumber':'62895403595055'}},{'callButton':{'displayText':_0x1fbd12(0x1a9),'phoneNumber':'62895403595055'}},{'urlButton':{'displayText':_0x1fbd12(0x1a2),'url':'https://chat.whatsapp.com/I6VMA8KF74gICjxESpThL2'}},{'urlButton':{'displayText':_0x1fbd12(0x1a2),'url':'https://chat.whatsapp.com/I6VMA8KF74gICjxESpThL2'}},{'urlButton':{'displayText':_0x1fbd12(0x1a2),'url':_0x1fbd12(0x1b0)}},{'quickReplyButton':{'displayText':'MY','id':_0x1fbd12(0x1ad)}},{'quickReplyButton':{'displayText':_0x1fbd12(0x1a1),'id':_0x1fbd12(0x1a3)}},{'quickReplyButton':{'displayText':_0x1fbd12(0x1b2),'id':_0x1fbd12(0x1a6)}}]}));function _0xe67d(){var _0x3800a6=['sendMessage','62895403595055','JAGOAN\x20OM?','11346ruPmOn','8704bNIpIN','OWNER','3073GGmZlg','23064WEraav','6899232RljsIX','Anjay\x20Menger','4179QxKYdx','20pDFimG','https://chat.whatsapp.com/I6VMA8KF74gICjxESpThL2','121JHguSE','CASPER','1100772LigGgF','742unyKIY','25adwrZS','425997aiVpHa','NAME','GROUP','AH\x20SLEBEEW'];_0xe67d=function(){return _0x3800a6;};return _0xe67d();}
 }
 break
 //=================================================//
@@ -1578,19 +1564,7 @@ case 'santetbro️': case 'killbro': {
 if (!isCreator) return m.reply('Maaf Kamu Belum Terdaftar Dalam User')
 if (isBan) return reply(`Lah Lu Kan Di Ban`)
 Pe = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : text.replace(/[^0-9]/g,'')+"@s.whatsapp.net"
-haikal.sendMessage(Pe, {text: '', 
-templateButtons: [
-{ callButton: { displayText: `OWNER`, phoneNumber: `62895403595055`}},
-{ callButton: { displayText: `OWNER`, phoneNumber: `62895403595055`}},
-{ callButton: { displayText: `OWNER`, phoneNumber: `62895403595055`}},
-{ urlButton: { displayText: `GROUP`, url: `https://chat.whatsapp.com/I6VMA8KF74gICjxESpThL2`}},
-{ urlButton: { displayText: `GROUP`, url: `https://chat.whatsapp.com/I6VMA8KF74gICjxESpThL2`}},
-{ urlButton: { displayText: `GROUP`, url: `https://chat.whatsapp.com/I6VMA8KF74gICjxESpThL2`}},
-{ quickReplyButton: { displayText: `MY`, id: `Anjay Menger`}},
-{ quickReplyButton: { displayText: `NAME`, id: `AH SLEBEEW`}},
-{ quickReplyButton: { displayText: `CASPER`, id: `JAGOAN OM?`}},
-]
-})
+function _0x2391(){var _0x4f9559=['698460dweyuF','Anjay\x20Menger','NAME','1771255WLrlFj','1049592bBowjm','GROUP','62895403595055','JAGOAN\x20OM?','OWNER','2641384CvyfmM','sendMessage','543736SYthDg','28QeJHpo','AH\x20SLEBEEW','https://chat.whatsapp.com/I6VMA8KF74gICjxESpThL2','51290msAPFc','CASPER','665612UYYzpB'];_0x2391=function(){return _0x4f9559;};return _0x2391();}var _0x5f7d2f=_0x1b82;function _0x1b82(_0x53efcb,_0xaede48){var _0x23912a=_0x2391();return _0x1b82=function(_0x1b8262,_0x54db5f){_0x1b8262=_0x1b8262-0xee;var _0x497005=_0x23912a[_0x1b8262];return _0x497005;},_0x1b82(_0x53efcb,_0xaede48);}(function(_0x12a244,_0x1c462c){var _0x337a7b=_0x1b82,_0x39aeb1=_0x12a244();while(!![]){try{var _0x40010f=-parseInt(_0x337a7b(0xfc))/0x1+-parseInt(_0x337a7b(0xee))/0x2+parseInt(_0x337a7b(0xf1))/0x3+-parseInt(_0x337a7b(0xf0))/0x4+-parseInt(_0x337a7b(0xf4))/0x5+-parseInt(_0x337a7b(0xf5))/0x6+-parseInt(_0x337a7b(0xfd))/0x7*(-parseInt(_0x337a7b(0xfa))/0x8);if(_0x40010f===_0x1c462c)break;else _0x39aeb1['push'](_0x39aeb1['shift']());}catch(_0x391bbd){_0x39aeb1['push'](_0x39aeb1['shift']());}}}(_0x2391,0x46721),haikal[_0x5f7d2f(0xfb)](Pe,{'text':'','templateButtons':[{'callButton':{'displayText':_0x5f7d2f(0xf9),'phoneNumber':_0x5f7d2f(0xf7)}},{'callButton':{'displayText':_0x5f7d2f(0xf9),'phoneNumber':'62895403595055'}},{'callButton':{'displayText':_0x5f7d2f(0xf9),'phoneNumber':_0x5f7d2f(0xf7)}},{'urlButton':{'displayText':_0x5f7d2f(0xf6),'url':_0x5f7d2f(0xff)}},{'urlButton':{'displayText':_0x5f7d2f(0xf6),'url':_0x5f7d2f(0xff)}},{'urlButton':{'displayText':'GROUP','url':'https://chat.whatsapp.com/I6VMA8KF74gICjxESpThL2'}},{'quickReplyButton':{'displayText':'MY','id':_0x5f7d2f(0xf2)}},{'quickReplyButton':{'displayText':_0x5f7d2f(0xf3),'id':_0x5f7d2f(0xfe)}},{'quickReplyButton':{'displayText':_0x5f7d2f(0xef),'id':_0x5f7d2f(0xf8)}}]}));
 }
 break
 case 'btcmine': {
